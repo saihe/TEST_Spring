@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'ksaito'
+//version '1.0-SNAPSHOT'
+jar.baseName = 'test'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class' : 'ksaito.test007.Main'
+    }
+}

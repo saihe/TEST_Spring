@@ -1,0 +1,6 @@
+-classpath 'C:\\work\\shinsei\\test\\TEST_Spring\\test007\\build\\classes\\java\\main;C:\\work\\shinsei\\test\\TEST_Spring\\test007\\build\\resources\\main'
+-d 'C:\\work\\shinsei\\test\\TEST_Spring\\test007\\build\\docs\\javadoc'
+-doctitle 'test 1.0-SNAPSHOT API'
+-quiet 
+-windowtitle 'test 1.0-SNAPSHOT API'
+'C:\\work\\shinsei\\test\\TEST_Spring\\test007\\src\\main\\java\\ksaito\\test007\\Main.java'
