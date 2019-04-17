@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XML>
+<configuration>
+
+    <property resource="logging.properties" />
+
+    <appender name="STDOUT"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy/MM/dd HH:mm:ss.SSS},%-5level,%X{ip},%class{0},%M,%X{sessionId},%msg%n</pattern>
+        </layout>
+    </appender>
+
+    <appender name="FILE_OPE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>TRACE</level>
+        </filter>
+
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy/MM/dd HH:mm:ss.SSS},%-5level,%X{ip},%class{0},%M,%X{sessionId},%msg%n</pattern>
+        </layout>
+        <File>${log.dir}/operation.log</File>
+
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${log.dir}/operation.%d{yyyy-MM}.log.zip</FileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="FILE_ERR"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy/MM/dd HH:mm:ss.SSS},%-5level,%X{ip},%class{0},%M,%msg%n</pattern>
+        </layout>
+        <File>${log.dir}/error.log</File>
+
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${log.dir}/error.%d{yyyy-MM}.log.zip</FileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+    <logger name="org.springframework" level="INFO" />
+    <logger name="com.fujitsu" level="DEBUG" />
+    <logger name="com.fujitsu.cris.operation" level="INFO">
+        <appender-ref ref="FILE_OPE"/>
+    </logger>
+    <logger name="com.fujitsu.cris.error" level="ERROR">
+        <appender-ref ref="FILE_ERR"/>
+    </logger>
+
+    <root level="TRACE">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE_OPE"/>
+        <appender-ref ref="FILE_ERR"/>
+    </root>
+</configuration>
