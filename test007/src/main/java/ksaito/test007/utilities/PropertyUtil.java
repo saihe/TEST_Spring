@@ -2,6 +2,7 @@ package ksaito.test007.utilities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.val;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +24,7 @@ public class PropertyUtil {
     /** プロパティ：出力ファイル名 */
     public static final String PROPERTY_OUTPUT_FILE_NAME = "name.file.output";
     /** プロパティ：変換テーブル */
-    public static final String PROPERTY_REPLACE_TAME = "table.replace";
+    public static final String PROPERTY_REPLACE_TABLE = "table.replace";
 
     /** 配列ではないプロパティ取得 */
     public static String getProperty(String key)
@@ -46,7 +47,7 @@ public class PropertyUtil {
     {
         List<ReplaceTable> replaceTableList = new ArrayList<ReplaceTable>();
         // プロパティから取得した変換テーブルを格納（beforeString：afterString,...）
-        for (String paramater:resource.getStringArray(PROPERTY_REPLACE_TAME)) {
+        for (String paramater: resource.getString(PROPERTY_REPLACE_TABLE).split(Pattern.quote(","))) {
             String[] property = paramater.split(Pattern.quote(":"));
             ReplaceTable replaceTable = new ReplaceTable(property[0], property[1]);
             replaceTableList.add(replaceTable);

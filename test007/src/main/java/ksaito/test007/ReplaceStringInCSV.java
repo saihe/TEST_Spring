@@ -33,7 +33,7 @@ public class ReplaceStringInCSV {
             // 入力ファイル名
             String inputFileName = PropertyUtil.getProperty(PropertyUtil.PROPERTY_INPUT_FILE_NAME);
             // 出力ファイル名
-            String outputFileName = PropertyUtil.getProperty(PropertyUtil.PROPERTY_INPUT_FILE_NAME);
+            String outputFileName = PropertyUtil.getProperty(PropertyUtil.PROPERTY_OUTPUT_FILE_NAME);
             // 変換テーブル
             List<PropertyUtil.ReplaceTable> replaceTableList = PropertyUtil.getReplaceTable();
 
@@ -78,8 +78,6 @@ public class ReplaceStringInCSV {
         ) {
             // 例外処理
             resultCode = ConstsUtil.RESULT_CODE_ERROR;
-            e.printStackTrace();
-            log.info("異常終了");
             log.error("例外発生", e);
 
         }

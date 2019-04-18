@@ -1,0 +1,12 @@
+2019/04/18 20:06:48.950,ERROR,,ReplaceStringInCSV,processStart,例外発生
+java.lang.ClassCastException: java.lang.String cannot be cast to [Ljava.lang.String;
+	at java.util.ResourceBundle.getStringArray(ResourceBundle.java:424)
+	at ksaito.test007.utilities.PropertyUtil.getReplaceTable(PropertyUtil.java:49)
+	at ksaito.test007.ReplaceStringInCSV.processStart(ReplaceStringInCSV.java:38)
+	at ksaito.test007.Main.main(Main.java:17)
+2019/04/18 20:07:47.235,ERROR,,ReplaceStringInCSV,processStart,例外発生
+java.lang.ClassCastException: java.lang.String cannot be cast to [Ljava.lang.String;
+	at java.util.ResourceBundle.getStringArray(ResourceBundle.java:424)
+	at ksaito.test007.utilities.PropertyUtil.getReplaceTable(PropertyUtil.java:49)
+	at ksaito.test007.ReplaceStringInCSV.processStart(ReplaceStringInCSV.java:38)
+	at ksaito.test007.Main.main(Main.java:17)
