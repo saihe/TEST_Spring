@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import java.util.Properties;
 
 @Slf4j
-public class Ryu001 {
+public class Ryu001 implements Ryu {
     private final String path = "C:/work/shinsei/test/TEST_Spring/test008/src/lib/test.xml";
 
     public void ryu() {

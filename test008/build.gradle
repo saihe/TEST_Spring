@@ -17,8 +17,8 @@ dependencies {
     compile 'org.slf4j:slf4j-api:1.7.18'
     compileOnly 'org.projectlombok:lombok:1.18.6'
     annotationProcessor 'org.projectlombok:lombok:1.18.6'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.1'
 }
-
 jar {
     manifest {
         attributes 'Main-Class' : 'ksaito.Main'
