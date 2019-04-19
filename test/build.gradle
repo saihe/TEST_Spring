@@ -26,4 +26,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	compile 'ch.qos.logback:logback-core:1.1.6'
+	compile 'ch.qos.logback:logback-classic:1.1.6'
+	compile 'org.slf4j:slf4j-api:1.7.18'
 }

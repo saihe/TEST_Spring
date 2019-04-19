@@ -1,0 +1,10 @@
+#spring.config.location=C:/work/test/TEST_Spring/test/src/lib
+#アプリケーションプロパティ
+#lib.property.name.application=${lib.dir}/application.yml
+lib:
+  #プロパティファイル格納ディレクトリ
+  dir: C:/work/test/TEST_Spring/test/src/lib
+  property:
+    name:
+      #ログプロパティ
+      logging: ${lib.dir}/logging.yml

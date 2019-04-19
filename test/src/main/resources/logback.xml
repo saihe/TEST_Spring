@@ -1,0 +1,61 @@
+<configuration>
+
+    <property resource="application.properties" />
+    <property resource="${lib.property.name.logging}" />
+
+    <appender name="STDOUT"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy/MM/dd HH:mm:ss.SSS},%-5level,%X{ip},%class{0},%M,%X{sessionId},%msg%n</pattern>
+        </layout>
+    </appender>
+
+    <appender name="FILE_OPE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy/MM/dd HH:mm:ss.SSS},%-5level,%X{ip},%class{0},%M,%X{sessionId},%msg%n</pattern>
+        </layout>
+        <File>${log.dir}/${log.file.name}.log</File>
+
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${log.dir}/${log.file.name}.%d{yyyy-MM}.log.zip</FileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="FILE_ERR"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy/MM/dd HH:mm:ss.SSS},%-5level,%X{ip},%class{0},%M,%msg%n</pattern>
+        </layout>
+        <File>${log.dir}/${log.file.name}.log</File>
+
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${log.dir}/${log.file.name}.%d{yyyy-MM}.log.zip</FileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+    <logger name="ksaito" level="INFO" />
+    <logger name="ksaito" level="DEBUG" />
+    <logger name="ksaito.opration" level="INFO">
+        <appender-ref ref="FILE_OPE"/>
+    </logger>
+    <logger name="ksaito.error" level="ERROR">
+        <appender-ref ref="FILE_ERR"/>
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE_OPE"/>
+        <appender-ref ref="FILE_ERR"/>
+    </root>
+</configuration>
