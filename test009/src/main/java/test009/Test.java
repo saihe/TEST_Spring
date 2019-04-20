@@ -1,5 +1,7 @@
 package test009;
 
+import Utilieits.RyuUtil;
+
 /**
  * メインクラス
  */
@@ -10,14 +12,9 @@ public class Test {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int resultCode = 0;
-		try {
-			System.out.println("args[0]：" + args[0]);
-		} catch (Exception e) {
-			resultCode = 9;
-			System.out.println("異常終了");
-		}
-		System.exit(resultCode);
+		Ryu001 ryu001 = new Ryu001();
+
+		RyuUtil.exit(ryu001.ryu(args));
 	}
 
 }
