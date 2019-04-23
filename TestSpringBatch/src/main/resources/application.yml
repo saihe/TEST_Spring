@@ -1,0 +1,8 @@
+scheduled:
+  active:
+    batch001: 1
+    batch002: 0
+    batch003: 0
+  delay:
+    initial: 0
+    fixed: 1000
