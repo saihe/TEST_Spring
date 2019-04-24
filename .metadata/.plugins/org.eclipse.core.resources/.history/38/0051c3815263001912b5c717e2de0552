@@ -1,0 +1,13 @@
+package Utilieits;
+
+/**
+ * なんでもクラス
+ * @author kyohei
+ *
+ */
+public class RyuUtil {
+
+	public static void exit(int resultCode) {
+
+	}
+}

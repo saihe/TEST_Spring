@@ -1,0 +1,37 @@
+package test009;
+
+import java.util.Arrays;
+
+import DTO.ArgumentsDto;
+import Utilieits.ConstsUtil;
+
+/**
+ * 竜の勉強用クラス
+ * @author kyohei
+ *
+ */
+@Slf4j
+public class Ryu001 {
+
+	/**
+	 * テストを行う処理
+	 * @return 終了コード
+	 * 成功：0
+	 * 失敗：1
+	 */
+	public int ryu(String[] argumentsArray) {
+		int resultCode = ConstsUtil.RESULT_CODE_NORMAL;
+		try {
+			ArgumentsDto arguemtnsDto = new ArgumentsDto();
+			arguemtnsDto.setArgumentsList(Arrays.asList(argumentsArray));
+		} catch (NullPointerException e) {
+			resultCode = ConstsUtil.RESULT_CODE_ERROR;
+			System.out.println("ヌルポ");
+		} catch (Exception e) {
+			resultCode = ConstsUtil.RESULT_CODE_ERROR;
+			System.out.println("異常終了");
+		}
+		return resultCode;
+	}
+
+}

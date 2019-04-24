@@ -1,0 +1,17 @@
+package Utilieits;
+
+/**
+ * なんでもクラス
+ * @author kyohei
+ *
+ */
+public class RyuUtil {
+
+	/**
+	 * アプリケーションを終了し、終了コードを返却する処理
+	 * @param resultCode
+	 */
+	public static void exit(int resultCode) {
+		System.exit(resultCode);
+	}
+}

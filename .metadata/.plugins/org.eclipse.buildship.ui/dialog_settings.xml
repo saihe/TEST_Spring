@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item value="WRAPPER" key="gradle_distribution_type"/>
+		<item value="true" key="use_default_location"/>
+		<item value="" key="gradle_distribution_configuration"/>
+		<item value="/Users/kyohei/Documents/work/eclipse/TEST_Spring/Template_Batch" key="project_location"/>
+	</section>
+</section>
