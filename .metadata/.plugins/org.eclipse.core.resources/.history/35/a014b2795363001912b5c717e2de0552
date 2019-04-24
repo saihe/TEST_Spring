@@ -1,0 +1,13 @@
+package DTO;
+
+import java.util.List;
+
+/**
+ * 起動引数を格納するクラス
+ * @author kyohei
+ *
+ */
+public class ArgumentsDto {
+
+	private List<String> argumentsList;
+}

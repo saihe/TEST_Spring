@@ -1,0 +1,27 @@
+package Utilieits;
+
+import java.text.MessageFormat;
+
+/**
+ * なんでもクラス
+ * @author kyohei
+ *
+ */
+public class RyuUtil {
+
+	/**
+	 * アプリケーションを終了し、終了コードを返却する処理
+	 * @param resultCode
+	 */
+	public static void exit(int resultCode) {
+		System.exit(resultCode);
+	}
+
+	public static String createMessage(String message, String[] argumentsArray) {
+		String resultString = "";
+		resultString = MessageFormat.format(message, (Object[]) argumentsArray);
+
+		return resultString;
+
+	}
+}

@@ -1,0 +1,21 @@
+package test009;
+
+/**
+ * メインクラス
+ * @author kyoehi
+ * @create 2019/04/20
+ * @update 2019/04/20
+ *
+ */
+public class Test {
+
+	/**
+	 * エントリーポイント
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+
+	}
+
+}
