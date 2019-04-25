@@ -2,17 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283d6cae-39c6-4e0b-9266-95b3ef636829" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/azureSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAnt/TestAnt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAnt/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAnt/src/main/java/ksaito/testAnt/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBatch/.idea/azureSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBatch/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBatch/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBatch/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBatch/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBatch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBatch/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBatch/src/main/java/ksaito/testBatch/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestLibrary/.idea/azureSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestLibrary/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestLibrary/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestLibrary/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestLibrary/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestLibrary/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestLibrary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestLibrary/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestLibrary/src/main/java/ksaito/testLibrary/Library01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestModule/src/main/java/ksaito/testModule/Module01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/5.0/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/classes/java/main/TestGradle/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/classes/java/test/TestGradle/LibraryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/libs/TestGradle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/reports/tests/test/classes/TestGradle.LibraryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/reports/tests/test/packages/TestGradle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/test-results/test/TEST-TestGradle.LibraryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGradle/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -27,6 +68,15 @@
     <ignored path="$PROJECT_DIR$/TestSpringBatch/.gradle/" />
     <ignored path="$PROJECT_DIR$/TestSpringBatch/build/" />
     <ignored path="$PROJECT_DIR$/TestSpringBatch/out/" />
+    <ignored path="$PROJECT_DIR$/TestModule/.gradle/" />
+    <ignored path="$PROJECT_DIR$/TestModule/build/" />
+    <ignored path="$PROJECT_DIR$/TestModule/out/" />
+    <ignored path="$PROJECT_DIR$/TestBatch/.gradle/" />
+    <ignored path="$PROJECT_DIR$/TestBatch/build/" />
+    <ignored path="$PROJECT_DIR$/TestBatch/out/" />
+    <ignored path="$PROJECT_DIR$/TestLibrary/.gradle/" />
+    <ignored path="$PROJECT_DIR$/TestLibrary/build/" />
+    <ignored path="$PROJECT_DIR$/TestLibrary/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +85,12 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/TestBatch">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/TestLibrary">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/TestSpringBatch">
@@ -53,27 +109,30 @@
         <task path="$PROJECT_DIR$/TestSpringBatch">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/TestModule">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/TestBatch">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/TestLibrary">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TestSpringBatch" type="f1a62948:ProjectNode" />
+                <item name="TestBatch" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TestSpringBatch" type="f1a62948:ProjectNode" />
+                <item name="TestBatch" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TestSpringBatch" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TestSpringBatch" type="f1a62948:ProjectNode" />
+                <item name="TestBatch" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -125,37 +184,38 @@
     <session id="-602771990">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="4" />
-          <entry key="java" value="7" />
+          <entry key="gradle" value="14" />
+          <entry key="java" value="12" />
           <entry key="md" value="1" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="3" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="7" />
+          <entry key="Groovy" value="14" />
+          <entry key="JAVA" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="3" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="15" />
-          <entry key="java" value="1340" />
+          <entry key="gradle" value="807" />
+          <entry key="java" value="1752" />
           <entry key="properties" value="12" />
           <entry key="xml" value="122" />
           <entry key="yml" value="108" />
@@ -163,8 +223,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="15" />
-          <entry key="JAVA" value="1340" />
+          <entry key="Groovy" value="807" />
+          <entry key="JAVA" value="1752" />
           <entry key="Properties" value="12" />
           <entry key="XML" value="122" />
           <entry key="YAML" value="108" />
@@ -175,25 +235,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestAnt/build.xml">
+        <entry file="file://$PROJECT_DIR$/TestBatch/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestAnt/src/main/java/ksaito/testAnt/Application.java">
+        <entry file="file://$PROJECT_DIR$/TestBatch/src/main/java/ksaito/testBatch/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -220,12 +274,16 @@
     <option name="myGradleHomes">
       <map>
         <entry key="$PROJECT_DIR$" value="C:\gradle\gradle-4.10.2" />
+        <entry key="$PROJECT_DIR$/TestBatch" value="C:\gradle\gradle-4.10.2" />
+        <entry key="$PROJECT_DIR$/TestLibrary" value="C:\gradle\gradle-4.10.2" />
         <entry key="$PROJECT_DIR$/TestSpringBatch" value="C:\gradle\gradle-4.10.2" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
         <entry key="$PROJECT_DIR$" value="4.10.2" />
+        <entry key="$PROJECT_DIR$/TestBatch" value="4.10.2" />
+        <entry key="$PROJECT_DIR$/TestLibrary" value="4.10.2" />
         <entry key="$PROJECT_DIR$/TestSpringBatch" value="4.10.2" />
       </map>
     </option>
@@ -243,6 +301,42 @@
               <ExternalProjectPojo>
                 <option name="name" value="TEST_Spring" />
                 <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":TestModule" />
+                <option name="path" value="$PROJECT_DIR$/TestModule" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="TestBatch" />
+              <option name="path" value="$PROJECT_DIR$/TestBatch" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="TestBatch" />
+                <option name="path" value="$PROJECT_DIR$/TestBatch" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="TestLibrary" />
+              <option name="path" value="$PROJECT_DIR$/TestLibrary" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="TestLibrary" />
+                <option name="path" value="$PROJECT_DIR$/TestLibrary" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -271,11 +365,6 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by root project 'TEST_Spring'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
@@ -286,9 +375,19 @@
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the dependent components of components in root project 'TEST_Spring'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'TEST_Spring'." />
@@ -296,24 +395,19 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'TEST_Spring'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Generates Gradle wrapper files." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'TEST_Spring'." />
+                <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencies" />
+                <option name="name" value="testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="help" />
+                <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the configuration model of root project 'TEST_Spring'. [incubating]" />
@@ -321,14 +415,502 @@
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'TEST_Spring' (some of the displayed tasks may belong to subprojects)." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'TEST_Spring'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'TEST_Spring'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'TEST_Spring'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/TestBatch">
+          <value>
+            <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'TEST_Spring'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="description" value="Displays the components produced by root project 'TestBatch'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'TestBatch'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'TestBatch'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'TestBatch'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'TestBatch'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'TestBatch'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
                 <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'TestBatch'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'TestBatch'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'TestBatch'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/TestLibrary">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'TestLibrary'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'TestLibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'TestLibrary'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'TestLibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'TestLibrary'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'TestLibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'TestLibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'TestLibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'TestLibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/TestModule">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':TestModule'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':TestModule'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':TestModule'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':TestModule'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':TestModule'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':TestModule'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':TestModule'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':TestModule'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':TestModule'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/TestModule" />
+                <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -530,12 +1112,22 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1555994241116" />
+        <entry key="$PROJECT_DIR$" value="4668485230419" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/TestBatch" value="4668495234089" />
+        <entry key="$PROJECT_DIR$/TestBatch/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/TestBatch/build.gradle" value="2757400633" />
+        <entry key="$PROJECT_DIR$/TestBatch/settings.gradle" value="2145511526" />
+        <entry key="$PROJECT_DIR$/TestLibrary" value="4668502484863" />
+        <entry key="$PROJECT_DIR$/TestLibrary/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/TestLibrary/build.gradle" value="2822518264" />
+        <entry key="$PROJECT_DIR$/TestLibrary/settings.gradle" value="1045240977" />
+        <entry key="$PROJECT_DIR$/TestModule/build.gradle" value="3442809129" />
         <entry key="$PROJECT_DIR$/TestSpringBatch" value="4667991070485" />
         <entry key="$PROJECT_DIR$/TestSpringBatch/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/TestSpringBatch/build.gradle" value="465485780" />
         <entry key="$PROJECT_DIR$/TestSpringBatch/settings.gradle" value="2965287593" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="4263463053" />
         <entry key="$PROJECT_DIR$/test003/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/test003/build.gradle" value="3028028624" />
         <entry key="$PROJECT_DIR$/test003/gradle/wrapper/gradle-wrapper.properties" value="408007245" />
@@ -556,9 +1148,360 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/TestModule">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/TestModule" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                 </map>
               </option>
               <option name="name" value="TEST_Spring" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="C:/gradle/gradle-4.10.2/src/announce" />
+                  <option value="C:/gradle/gradle-4.10.2/src/antlr" />
+                  <option value="C:/gradle/gradle-4.10.2/src/base-services" />
+                  <option value="C:/gradle/gradle-4.10.2/src/base-services-groovy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-cache" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-cache-http" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-comparison" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-init" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-option" />
+                  <option value="C:/gradle/gradle-4.10.2/src/cli" />
+                  <option value="C:/gradle/gradle-4.10.2/src/code-quality" />
+                  <option value="C:/gradle/gradle-4.10.2/src/composite-builds" />
+                  <option value="C:/gradle/gradle-4.10.2/src/core" />
+                  <option value="C:/gradle/gradle-4.10.2/src/core-api" />
+                  <option value="C:/gradle/gradle-4.10.2/src/dependency-management" />
+                  <option value="C:/gradle/gradle-4.10.2/src/diagnostics" />
+                  <option value="C:/gradle/gradle-4.10.2/src/docs" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ear" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ide" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ide-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ide-play" />
+                  <option value="C:/gradle/gradle-4.10.2/src/installation-beacon" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-android-performance-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-integ-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-performance-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ivy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/jacoco" />
+                  <option value="C:/gradle/gradle-4.10.2/src/javascript" />
+                  <option value="C:/gradle/gradle-4.10.2/src/jvm-services" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-groovy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-java" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-jvm" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-scala" />
+                  <option value="C:/gradle/gradle-4.10.2/src/launcher" />
+                  <option value="C:/gradle/gradle-4.10.2/src/logging" />
+                  <option value="C:/gradle/gradle-4.10.2/src/maven" />
+                  <option value="C:/gradle/gradle-4.10.2/src/messaging" />
+                  <option value="C:/gradle/gradle-4.10.2/src/model-core" />
+                  <option value="C:/gradle/gradle-4.10.2/src/model-groovy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/osgi" />
+                  <option value="C:/gradle/gradle-4.10.2/src/persistent-cache" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-base" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-jvm" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-play" />
+                  <option value="C:/gradle/gradle-4.10.2/src/plugin-development" />
+                  <option value="C:/gradle/gradle-4.10.2/src/plugin-use" />
+                  <option value="C:/gradle/gradle-4.10.2/src/plugins" />
+                  <option value="C:/gradle/gradle-4.10.2/src/process-services" />
+                  <option value="C:/gradle/gradle-4.10.2/src/publish" />
+                  <option value="C:/gradle/gradle-4.10.2/src/reporting" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-gcs" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-http" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-s3" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-sftp" />
+                  <option value="C:/gradle/gradle-4.10.2/src/scala" />
+                  <option value="C:/gradle/gradle-4.10.2/src/signing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/test-kit" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-base" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-junit-platform" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-jvm" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/tooling-api" />
+                  <option value="C:/gradle/gradle-4.10.2/src/tooling-api-builders" />
+                  <option value="C:/gradle/gradle-4.10.2/src/tooling-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/version-control" />
+                  <option value="C:/gradle/gradle-4.10.2/src/workers" />
+                  <option value="C:/gradle/gradle-4.10.2/src/wrapper" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/ant-1.9.11.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/ant-launcher-1.9.11.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-api-metadata-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-base-services-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-base-services-groovy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-build-cache-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-build-option-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-cli-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-core-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-core-api-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-docs-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-installation-beacon-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-jvm-services-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-launcher-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-logging-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-messaging-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-model-core-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-model-groovy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-persistent-cache-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-process-services-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-resources-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-runtime-api-info-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-tooling-api-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-wrapper-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/groovy-all-2.4.15.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-announce-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-antlr-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-build-cache-http-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-build-comparison-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-build-init-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-code-quality-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-composite-builds-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-dependency-management-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-diagnostics-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ear-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ide-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ide-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ide-play-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ivy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-jacoco-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-javascript-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-groovy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-java-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-jvm-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-scala-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-maven-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-osgi-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-base-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-jvm-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-play-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-plugin-development-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-plugin-use-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-plugins-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-publish-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-reporting-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-gcs-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-http-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-s3-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-sftp-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-scala-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-signing-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-test-kit-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-base-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-junit-platform-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-jvm-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-tooling-api-builders-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-tooling-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-version-control-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-workers-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/ivy-2.2.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/TestBatch">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/TestBatch">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/TestBatch" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="TestBatch" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="C:/gradle/gradle-4.10.2/src/announce" />
+                  <option value="C:/gradle/gradle-4.10.2/src/antlr" />
+                  <option value="C:/gradle/gradle-4.10.2/src/base-services" />
+                  <option value="C:/gradle/gradle-4.10.2/src/base-services-groovy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-cache" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-cache-http" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-comparison" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-init" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-option" />
+                  <option value="C:/gradle/gradle-4.10.2/src/cli" />
+                  <option value="C:/gradle/gradle-4.10.2/src/code-quality" />
+                  <option value="C:/gradle/gradle-4.10.2/src/composite-builds" />
+                  <option value="C:/gradle/gradle-4.10.2/src/core" />
+                  <option value="C:/gradle/gradle-4.10.2/src/core-api" />
+                  <option value="C:/gradle/gradle-4.10.2/src/dependency-management" />
+                  <option value="C:/gradle/gradle-4.10.2/src/diagnostics" />
+                  <option value="C:/gradle/gradle-4.10.2/src/docs" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ear" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ide" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ide-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ide-play" />
+                  <option value="C:/gradle/gradle-4.10.2/src/installation-beacon" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-android-performance-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-integ-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-performance-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ivy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/jacoco" />
+                  <option value="C:/gradle/gradle-4.10.2/src/javascript" />
+                  <option value="C:/gradle/gradle-4.10.2/src/jvm-services" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-groovy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-java" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-jvm" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-scala" />
+                  <option value="C:/gradle/gradle-4.10.2/src/launcher" />
+                  <option value="C:/gradle/gradle-4.10.2/src/logging" />
+                  <option value="C:/gradle/gradle-4.10.2/src/maven" />
+                  <option value="C:/gradle/gradle-4.10.2/src/messaging" />
+                  <option value="C:/gradle/gradle-4.10.2/src/model-core" />
+                  <option value="C:/gradle/gradle-4.10.2/src/model-groovy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/osgi" />
+                  <option value="C:/gradle/gradle-4.10.2/src/persistent-cache" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-base" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-jvm" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-play" />
+                  <option value="C:/gradle/gradle-4.10.2/src/plugin-development" />
+                  <option value="C:/gradle/gradle-4.10.2/src/plugin-use" />
+                  <option value="C:/gradle/gradle-4.10.2/src/plugins" />
+                  <option value="C:/gradle/gradle-4.10.2/src/process-services" />
+                  <option value="C:/gradle/gradle-4.10.2/src/publish" />
+                  <option value="C:/gradle/gradle-4.10.2/src/reporting" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-gcs" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-http" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-s3" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-sftp" />
+                  <option value="C:/gradle/gradle-4.10.2/src/scala" />
+                  <option value="C:/gradle/gradle-4.10.2/src/signing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/test-kit" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-base" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-junit-platform" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-jvm" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/tooling-api" />
+                  <option value="C:/gradle/gradle-4.10.2/src/tooling-api-builders" />
+                  <option value="C:/gradle/gradle-4.10.2/src/tooling-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/version-control" />
+                  <option value="C:/gradle/gradle-4.10.2/src/workers" />
+                  <option value="C:/gradle/gradle-4.10.2/src/wrapper" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/ant-1.9.11.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/ant-launcher-1.9.11.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-api-metadata-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-base-services-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-base-services-groovy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-build-cache-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-build-option-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-cli-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-core-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-core-api-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-docs-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-installation-beacon-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-jvm-services-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-launcher-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-logging-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-messaging-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-model-core-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-model-groovy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-persistent-cache-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-process-services-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-resources-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-runtime-api-info-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-tooling-api-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-wrapper-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/groovy-all-2.4.15.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-announce-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-antlr-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-build-cache-http-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-build-comparison-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-build-init-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-code-quality-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-composite-builds-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-dependency-management-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-diagnostics-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ear-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ide-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ide-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ide-play-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ivy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-jacoco-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-javascript-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-groovy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-java-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-jvm-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-scala-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-maven-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-osgi-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-base-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-jvm-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-play-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-plugin-development-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-plugin-use-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-plugins-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-publish-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-reporting-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-gcs-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-http-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-s3-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-sftp-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-scala-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-signing-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-test-kit-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-base-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-junit-platform-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-jvm-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-tooling-api-builders-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-tooling-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-version-control-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-workers-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/ivy-2.2.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/TestLibrary">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/TestLibrary">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/TestLibrary" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="TestLibrary" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="C:/gradle/gradle-4.10.2/src/announce" />
@@ -910,6 +1853,8 @@
       <map>
         <entry key="$PROJECT_DIR$/.." value="PREVIEW" />
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/TestBatch" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/TestLibrary" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/TestSpringBatch" value="RE_IMPORT" />
       </map>
     </option>
@@ -931,6 +1876,11 @@
         <option value="$PROJECT_DIR$/TestSpringBatch/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/TestAnt/src/main/java/ksaito/testAnt/Application.java" />
         <option value="$PROJECT_DIR$/TestAnt/build.xml" />
+        <option value="$PROJECT_DIR$/TestModule/build.gradle" />
+        <option value="$PROJECT_DIR$/TestModule/src/main/java/ksaito/testModule/Module01.java" />
+        <option value="$PROJECT_DIR$/TestLibrary/src/main/java/ksaito/testLibrary/Library01.java" />
+        <option value="$PROJECT_DIR$/TestBatch/src/main/java/ksaito/testBatch/Application.java" />
+        <option value="$PROJECT_DIR$/TestBatch/build.gradle" />
       </list>
     </option>
   </component>
@@ -1186,7 +2136,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1197,47 +2146,21 @@
             <path>
               <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="TestAnt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="TestAnt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="TestAnt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="TestAnt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="TestAnt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ksaito" type="462c0819:PsiDirectoryNode" />
+              <item name="TestSpringBatch" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556155566208" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestAnt/build.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556171181128" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestLibrary/build.gradle" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.43563217" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -1257,29 +2180,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestSpringBatch [bootRun]">
-    <configuration name="TestSpringBatch [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/TestSpringBatch" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--stacktrace" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
+  <component name="RunManager" selected="Gradle.TestBatch [jar]">
+    <configuration name="TestBatch実行" type="Application" factoryName="アプリケーション">
+      <option name="MAIN_CLASS_NAME" value="ksaito.testBatch.Application" />
+      <module name="TestBatch_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="TestSpringBatch [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestBatch [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/TestSpringBatch" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TestBatch" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -1287,17 +2199,35 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="buildDependents" />
+            <option value="assemble" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="TestSpringBatch [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestBatch [buildNeeded]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/TestSpringBatch" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildNeeded" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBatch [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TestBatch" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -1312,10 +2242,10 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="TestSpringBatch [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestBatch [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/TestSpringBatch" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TestBatch" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -1323,7 +2253,25 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="classes" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBatch [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TestBatch" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -1378,17 +2326,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.TestSpringBatch [bootRun]" />
-      <item itemvalue="Gradle.TestSpringBatch [buildDependents]" />
-      <item itemvalue="Gradle.TestSpringBatch [build]" />
-      <item itemvalue="Gradle.TestSpringBatch [clean]" />
+      <item itemvalue="アプリケーション.TestBatch実行" />
+      <item itemvalue="Gradle.TestBatch [buildNeeded]" />
+      <item itemvalue="Gradle.TestBatch [build]" />
+      <item itemvalue="Gradle.TestBatch [classes]" />
+      <item itemvalue="Gradle.TestBatch [assemble]" />
+      <item itemvalue="Gradle.TestBatch [jar]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestSpringBatch [bootRun]" />
-        <item itemvalue="Gradle.TestSpringBatch [build]" />
-        <item itemvalue="Gradle.TestSpringBatch [clean]" />
-        <item itemvalue="Gradle.TestSpringBatch [buildDependents]" />
+        <item itemvalue="Gradle.TestBatch [jar]" />
+        <item itemvalue="Gradle.TestBatch [assemble]" />
+        <item itemvalue="Gradle.TestBatch [classes]" />
+        <item itemvalue="Gradle.TestBatch [build]" />
+        <item itemvalue="Gradle.TestBatch [buildNeeded]" />
       </list>
     </recent_temporary>
   </component>
@@ -1405,11 +2356,19 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestBatch_[check] - 2019.04.25 at 12h 45m 30s.xml">
+      <configuration name="TestBatch [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBatch_[check] - 2019.04.25 at 13h 02m 04s.xml">
+      <configuration name="TestBatch [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26652452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26918977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1420,17 +2379,16 @@
       <window_info id="Project Explorer" order="8" />
       <window_info id="Azure Explorer" order="9" />
       <window_info id="Job Explorer" order="10" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32978722" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.23404256" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
@@ -1439,17 +2397,44 @@
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Console" order="16" />
       <window_info anchor="bottom" id="Azure Activity Log" order="17" />
+      <window_info anchor="bottom" id="Messages" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.1391258" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.22654584" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="パレット" order="9" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1458,6 +2443,12 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
     <buildFile url="file://$PROJECT_DIR$/TestAnt/build.xml">
+      <targetFilters>
+        <filter targetName="jar" isVisible="false" />
+        <filter targetName="compile" isVisible="false" />
+        <filter targetName="javadoc" isVisible="false" />
+        <filter targetName="clean" isVisible="false" />
+      </targetFilters>
       <expanded value="true" />
     </buildFile>
   </component>
@@ -1480,13 +2471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSpringBatch/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -1525,15 +2509,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestAnt/src/main/java/ksaito/testAnt/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding>
             <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1545,9 +2530,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestModule/src/main/java/ksaito/testModule/Module01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" selection-start-line="6" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestLibrary/src/main/java/ksaito/testLibrary/Library01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestModule/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSpringBatch/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="35" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBatch/src/main/java/ksaito/testBatch/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBatch/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TestBatch</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1555,6 +2644,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: ksaito:TestModule01:</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
               </list>
             </option>
           </splitter-proportions>
