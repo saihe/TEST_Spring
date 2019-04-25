@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'ksaito'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // 外部jarファイルをインポートする場合はフルパスを指定する
+    compile files('C:/work/test/lib/TestLibrary.jar')
+}
+
+jar {
+    manifest {
+        attributes (
+                'Main-Class' : 'ksaito.testBatch.Application'
+                // クラスパスは相対パスのみ指定可能
+                , 'Class-Path': ' ../../../../lib/TestLibrary.jar'
+        )
+    }
+}
