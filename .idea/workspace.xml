@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="283d6cae-39c6-4e0b-9266-95b3ef636829" name="Default Changelist" comment="" />
+    <list default="true" id="283d6cae-39c6-4e0b-9266-95b3ef636829" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/azureSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAnt/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAnt/TestAnt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAnt/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAnt/src/main/java/ksaito/testAnt/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/test008/.gradle/" />
@@ -116,48 +128,77 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="4" />
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
           <entry key="md" value="1" />
           <entry key="properties" value="3" />
+          <entry key="xml" value="1" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
+          <entry key="XML" value="1" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="15" />
-          <entry key="java" value="1089" />
+          <entry key="java" value="1340" />
           <entry key="properties" value="12" />
+          <entry key="xml" value="122" />
           <entry key="yml" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="15" />
-          <entry key="JAVA" value="1089" />
+          <entry key="JAVA" value="1340" />
           <entry key="Properties" value="12" />
+          <entry key="XML" value="122" />
           <entry key="YAML" value="108" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestAnt/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestAnt/src/main/java/ksaito/testAnt/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,6 +210,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>env</find>
+      <find>foo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -887,6 +929,8 @@
         <option value="$PROJECT_DIR$/TestSpringBatch/src/main/java/ksaito/testSpringBatch/service/TestService.java" />
         <option value="$PROJECT_DIR$/TestSpringBatch/src/main/java/ksaito/testSpringBatch/SpringBatch.java" />
         <option value="$PROJECT_DIR$/TestSpringBatch/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/TestAnt/src/main/java/ksaito/testAnt/Application.java" />
+        <option value="$PROJECT_DIR$/TestAnt/build.xml" />
       </list>
     </option>
   </component>
@@ -1010,17 +1054,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -1154,12 +1187,58 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TestAnt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TestAnt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TestAnt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TestAnt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TestAnt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ksaito" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556000644002" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.YAML" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556155566208" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestAnt/build.xml" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1328,8 +1407,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26385927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26652452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1340,6 +1420,7 @@
       <window_info id="Project Explorer" order="8" />
       <window_info id="Azure Explorer" order="9" />
       <window_info id="Job Explorer" order="10" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
@@ -1349,7 +1430,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.23404256" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
@@ -1359,7 +1440,7 @@
       <window_info anchor="bottom" id="Console" order="16" />
       <window_info anchor="bottom" id="Azure Activity Log" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -1372,6 +1453,13 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/TestAnt/build.xml">
+      <expanded value="true" />
+    </buildFile>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test002/settings.gradle" />
@@ -1406,9 +1494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1416,10 +1501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1427,9 +1508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1444,9 +1522,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAnt/src/main/java/ksaito/testAnt/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAnt/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>
