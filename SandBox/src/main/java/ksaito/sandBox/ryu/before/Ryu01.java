@@ -1,4 +1,4 @@
-package ksaito.sandBox.ryu;
+package ksaito.sandBox.ryu.before;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,20 +30,6 @@ public class Ryu01 {
 
         InputStream inputStream = new FileInputStream(file);
 //
-//        Crud crud = new Crud();
-//
-//        crud.putObject(bucketName, objectKey, objectSize, is);
-    }
-
-    /**
-     * 竜からもらったやつの修正版
-     *
-     * @throws Exception
-     */
-    public static void ryu02() throws Exception {
-        File file = Paths.get("C:/Users/lises8/Desktop/SumpleTextName.txt").toFile();
-        is = Files.newInputStream(Paths.get("C:/Users/lises8/Desktop/SumpleTextName.txt"));
-
 //        Crud crud = new Crud();
 //
 //        crud.putObject(bucketName, objectKey, objectSize, is);

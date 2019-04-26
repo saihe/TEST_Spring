@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283d6cae-39c6-4e0b-9266-95b3ef636829" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SandBox/.idea/azureSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/before/Ryu01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestBatch/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TestBatch/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestBatch/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TestBatch/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01.java" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after/Ryu01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -173,7 +158,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="17" />
-          <entry key="java" value="20" />
+          <entry key="java" value="23" />
           <entry key="md" value="1" />
           <entry key="properties" value="3" />
           <entry key="xml" value="3" />
@@ -183,7 +168,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="17" />
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="23" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="3" />
@@ -192,8 +177,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="3" />
           <entry key="gradle" value="816" />
-          <entry key="java" value="2011" />
+          <entry key="java" value="2043" />
           <entry key="properties" value="12" />
           <entry key="xml" value="122" />
           <entry key="yml" value="108" />
@@ -202,7 +188,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="816" />
-          <entry key="JAVA" value="2011" />
+          <entry key="JAVA" value="2043" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="12" />
           <entry key="XML" value="122" />
           <entry key="YAML" value="108" />
@@ -224,29 +211,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu02.java">
+        <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/before/Ryu01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="31" selection-start-line="17" selection-end-line="31" />
+            <state relative-caret-position="187">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01.java">
+        <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after/Ryu01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -2220,6 +2207,9 @@
         <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java" />
         <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu02.java" />
         <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01.java" />
+        <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01_2.java" />
+        <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/before/Ryu01.java" />
+        <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after/Ryu01.java" />
       </list>
     </option>
   </component>
@@ -2528,6 +2518,17 @@
               <item name="sandBox" type="462c0819:PsiDirectoryNode" />
               <item name="ryu" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SandBox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sandBox" type="462c0819:PsiDirectoryNode" />
+              <item name="ryu" type="462c0819:PsiDirectoryNode" />
+              <item name="after" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -2535,7 +2536,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556247788072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556248495513" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SandBox/build.gradle" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -2544,6 +2545,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ksaito.sandBox.ryu.after" />
       <recent name="ksaito.sandBox.ryu" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -2960,27 +2962,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" selection-start-line="17" selection-end-line="31" />
+        <state relative-caret-position="357">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01.java">
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/before/Ryu01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after/Ryu01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
