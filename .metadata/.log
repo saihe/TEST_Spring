@@ -3303,3 +3303,183 @@ Binding(COMMAND+-,
 
 !ENTRY org.eclipse.ui 4 4 2019-04-24 22:29:28.401
 !MESSAGE プラグイン 'org.eclipse.egit.ui' は無効なメニュー拡張をコントリビュートしました (パス: 'org.eclipse.search.menu' が無効です): org.eclipse.egit.ui.actions.OpenCommitSearchPage
+
+!ENTRY org.eclipse.core.resources 2 2 2019-04-25 20:29:59.165
+!MESSAGE 保存操作の警告。
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-25 20:29:59.165
+!MESSAGE 'TestAnt2' のプロジェクト記述ファイル (.project) がありませんでした。 このファイルには、プロジェクトに関する重要な情報が含まれています。 新しいプロジェクト記述ファイルが作成されましたが、プロジェクトに関する情報の一部が破損している可能性があります。
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:39.342
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:39.343
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@f528652[org.springframework.tooling.boot.ls:1.4.0.201902210636(id=1068)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:39.346
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:40.109
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2019-04-25 20:40:42.036
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-25 20:40:42.036
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48d72144,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@43cabf8d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6725d802,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.246
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sWHtRLDX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.247
+!MESSAGE subscribing to classpath changes: sts4.classpath.sWHtRLDX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.249
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.256
+!MESSAGE subsribers = [sts4.classpath.sWHtRLDX]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.257
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.260
+!MESSAGE project TestAnt2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.261
+!MESSAGE project TestAnt ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.261
+!MESSAGE Preparing classpath changed notification TestAnt2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.261
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.262
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.262
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sWHtRLDX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.265
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.266
+!MESSAGE executing callback sts4.classpath.sWHtRLDX TestAnt2 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.282
+!MESSAGE executing callback sts4.classpath.sWHtRLDX SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.283
+!MESSAGE Preparing classpath changed notification TestAnt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.283
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.284
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.284
+!MESSAGE executing callback sts4.classpath.sWHtRLDX TestAnt false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 20:40:44.288
+!MESSAGE executing callback sts4.classpath.sWHtRLDX SUCCESS [終了しました]
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-25 20:51:11.075
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-04-25 20:57:43.784
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:90)
+
+!ENTRY org.eclipse.debug.core 4 2 2019-04-25 20:59:26.277
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+org.eclipse.buildship.core.internal.GradlePluginsRuntimeException: Cannot resolve working directory expression ${workspace_loc:/TestGradle}.
+	at org.eclipse.buildship.core.internal.launch.GradleRunConfigurationAttributes.getWorkingDir(GradleRunConfigurationAttributes.java:93)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadRunConfiguration(DefaultConfigurationManager.java:166)
+	at org.eclipse.buildship.ui.internal.launch.ConsoleShowingLaunchListener.convertToGradleRunConfigurationAttributes(ConsoleShowingLaunchListener.java:67)
+	at org.eclipse.buildship.ui.internal.launch.ConsoleShowingLaunchListener.launchAdded(ConsoleShowingLaunchListener.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:417)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1039)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:679)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:811)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1029)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 120 2019-04-25 20:59:26.278
+!MESSAGE 起動変更通知中に例外が発生しました。
+!STACK 0
+org.eclipse.buildship.core.internal.GradlePluginsRuntimeException: Cannot resolve working directory expression ${workspace_loc:/TestGradle}.
+	at org.eclipse.buildship.core.internal.launch.GradleRunConfigurationAttributes.getWorkingDir(GradleRunConfigurationAttributes.java:93)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadRunConfiguration(DefaultConfigurationManager.java:166)
+	at org.eclipse.buildship.ui.internal.launch.ConsoleShowingLaunchListener.convertToGradleRunConfigurationAttributes(ConsoleShowingLaunchListener.java:67)
+	at org.eclipse.buildship.ui.internal.launch.ConsoleShowingLaunchListener.launchAdded(ConsoleShowingLaunchListener.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:417)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1039)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:679)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:811)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1029)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-04-25 20:59:26.341
+!MESSAGE "TestGradle - build の起動" 中に内部エラーが発生しました。
+!STACK 0
+org.eclipse.buildship.core.internal.GradlePluginsRuntimeException: Cannot resolve working directory expression ${workspace_loc:/TestGradle}.
+	at org.eclipse.buildship.core.internal.launch.GradleRunConfigurationAttributes.getWorkingDir(GradleRunConfigurationAttributes.java:93)
+	at org.eclipse.buildship.core.internal.configuration.DefaultConfigurationManager.loadRunConfiguration(DefaultConfigurationManager.java:166)
+	at org.eclipse.buildship.core.internal.launch.RunGradleBuildLaunchRequestJob.<init>(RunGradleBuildLaunchRequestJob.java:49)
+	at org.eclipse.buildship.core.internal.launch.GradleRunConfigurationDelegate.launch(GradleRunConfigurationDelegate.java:44)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1029)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-25 21:10:07.164
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 21:18:31.794
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sWHtRLDX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 21:18:31.795
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.sWHtRLDX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 21:18:31.796
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 21:18:31.796
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sWHtRLDX => OK

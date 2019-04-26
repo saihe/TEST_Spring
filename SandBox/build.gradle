@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'ksaito'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+jar {
+    manifest {
+        attributes (
+                'Main-Class' : 'ksaito.sandBox.Application'
+        )
+    }
+    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+}
