@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283d6cae-39c6-4e0b-9266-95b3ef636829" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/before/Ryu01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/test/base62/TestBase62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/test/innerClass/TestInnerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01.java" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after/Ryu01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/build/classes/java/main/ksaito/sandBox/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/build/classes/java/main/ksaito/sandBox/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -95,7 +104,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="SandBox" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -145,20 +154,22 @@
     <session id="-602771990">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="17" />
-          <entry key="java" value="23" />
+          <entry key="gradle" value="18" />
+          <entry key="java" value="31" />
           <entry key="md" value="1" />
           <entry key="properties" value="3" />
           <entry key="xml" value="3" />
@@ -167,8 +178,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="17" />
-          <entry key="JAVA" value="23" />
+          <entry key="Groovy" value="18" />
+          <entry key="JAVA" value="31" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="3" />
@@ -179,7 +190,7 @@
         <counts>
           <entry key="dummy" value="3" />
           <entry key="gradle" value="816" />
-          <entry key="java" value="2043" />
+          <entry key="java" value="5207" />
           <entry key="properties" value="12" />
           <entry key="xml" value="122" />
           <entry key="yml" value="108" />
@@ -188,7 +199,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="816" />
-          <entry key="JAVA" value="2043" />
+          <entry key="JAVA" value="5207" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="12" />
           <entry key="XML" value="122" />
@@ -198,30 +209,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SandBox/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/before/Ryu01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -229,11 +222,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after/Ryu01.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/test/base62/TestBase62.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="1054">
+              <caret line="77" column="49" lean-forward="true" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1259,7 +1255,7 @@
       <map>
         <entry key="$PROJECT_DIR$" value="4668485230419" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/SandBox" value="4668730541710" />
+        <entry key="$PROJECT_DIR$/SandBox" value="4668731107298" />
         <entry key="$PROJECT_DIR$/SandBox/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/SandBox/build.gradle" value="1651905352" />
         <entry key="$PROJECT_DIR$/SandBox/settings.gradle" value="3359551263" />
@@ -2204,20 +2200,24 @@
         <option value="$PROJECT_DIR$/TestBatch/src/main/java/ksaito/testBatch/Application.java" />
         <option value="$PROJECT_DIR$/TestBatch/build.gradle" />
         <option value="$PROJECT_DIR$/SandBox/build.gradle" />
-        <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java" />
         <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu02.java" />
         <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01.java" />
         <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01_2.java" />
         <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/before/Ryu01.java" />
         <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after/Ryu01.java" />
+        <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/TestInnerClass.java" />
+        <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/BaseClass.java" />
+        <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/test/TestInnerClass.java" />
+        <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/test/base62/TestBase62.java" />
+        <option value="$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1543" />
-    <option name="y" value="251" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2333,7 +2333,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -2466,6 +2465,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2516,18 +2516,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sandBox" type="462c0819:PsiDirectoryNode" />
-              <item name="ryu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TEST_Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TEST_Spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="SandBox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sandBox" type="462c0819:PsiDirectoryNode" />
-              <item name="ryu" type="462c0819:PsiDirectoryNode" />
-              <item name="after" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2536,12 +2525,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556248495513" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SandBox/build.gradle" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557383302992" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.43563217" />
-    <property name="settings.editor.selected.configurable" value="studioMain" />
+    <property name="settings.editor.selected.configurable" value="studioAccounts" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -2564,7 +2553,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SandBox [build]">
+  <component name="RunManager" selected="アプリケーション.Application">
+    <configuration name="Application" type="Application" factoryName="アプリケーション" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ksaito.sandBox.Application" />
+      <module name="SandBox_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ksaito.sandBox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestBatch実行" type="Application" factoryName="アプリケーション">
       <option name="MAIN_CLASS_NAME" value="ksaito.testBatch.Application" />
       <module name="TestBatch_main" />
@@ -2590,6 +2592,24 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
+    <configuration name="SandBox [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SandBox" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="TestBatch [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -2602,42 +2622,6 @@
         <option name="taskNames">
           <list>
             <option value="assemble" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestBatch [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/TestBatch" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestBatch [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/TestBatch" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="classes" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -2711,19 +2695,19 @@
     </configuration>
     <list>
       <item itemvalue="アプリケーション.TestBatch実行" />
-      <item itemvalue="Gradle.TestBatch [build]" />
-      <item itemvalue="Gradle.TestBatch [classes]" />
       <item itemvalue="Gradle.TestBatch [assemble]" />
       <item itemvalue="Gradle.TestBatch [jar]" />
       <item itemvalue="Gradle.SandBox [build]" />
+      <item itemvalue="アプリケーション.Application" />
+      <item itemvalue="Gradle.SandBox [check]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SandBox [check]" />
+        <item itemvalue="アプリケーション.Application" />
         <item itemvalue="Gradle.SandBox [build]" />
         <item itemvalue="Gradle.TestBatch [jar]" />
         <item itemvalue="Gradle.TestBatch [assemble]" />
-        <item itemvalue="Gradle.TestBatch [classes]" />
-        <item itemvalue="Gradle.TestBatch [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -2747,12 +2731,15 @@
     <history-entry file="TestBatch_[check] - 2019.04.25 at 13h 02m 04s.xml">
       <configuration name="TestBatch [check]" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="SandBox_[check] - 2019.05.09 at 12h 05m 01s.xml">
+      <configuration name="SandBox [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27452025" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28091684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -2765,7 +2752,7 @@
       <window_info id="Job Explorer" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2941,17 +2928,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestBatch/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="17" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestSpringBatch/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="35" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu02.java" />
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after.java" />
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01_2.java" />
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after/Ryu01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/before/Ryu01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -2962,48 +2959,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu02.java">
+    <entry file="file://$PROJECT_DIR$/TestBatch/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java">
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/before/Ryu01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="51">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after/Ryu01.java">
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/test/innerClass/TestInnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="-373">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/test/base62/TestBase62.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="77" column="49" lean-forward="true" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
