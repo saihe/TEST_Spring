@@ -10,7 +10,7 @@ public abstract class BaseClass {
                 System.out.println(str);
             }
         } else {
-            System.out.println("Warning: Argument is null.");
+//            System.out.println("Warning: Argument is null.");
         }
     }
     public static void print(String[] args) {
@@ -19,14 +19,14 @@ public abstract class BaseClass {
                 System.out.println(str);
             }
         } else {
-            System.out.println("Warning: Argument is null.");
+//            System.out.println("Warning: Argument is null.");
         }
     }
     public static void print(String str) {
         if(Objects.nonNull(str)) {
             System.out.println(str);
         } else {
-            System.out.println("Warning: Argument is null.");
+//            System.out.println("Warning: Argument is null.");
         }
     }
     public abstract void run();
