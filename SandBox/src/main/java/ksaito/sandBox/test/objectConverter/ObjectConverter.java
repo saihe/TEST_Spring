@@ -3,7 +3,9 @@ package ksaito.sandBox.test.objectConverter;
 import ksaito.sandBox.BaseClass;
 
 import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Objects;
 
 public class ObjectConverter extends BaseClass {
@@ -14,8 +16,21 @@ public class ObjectConverter extends BaseClass {
         DOUBLE, SINGLE, NONE;
     }
     public void run(){
-        run(createTestObject(), MODE.CSV, QUOTE.SINGLE);
-        run(createTestObject(), MODE.JSON , null);
+//        run(createTestObject(), MODE.CSV, QUOTE.SINGLE);
+//        run(createTestObject(), MODE.JSON , null);
+        TestNestedObject testNestedObject = new TestNestedObject();
+        testNestedObject.setId("001");
+        testNestedObject.setTestObject(createTestObject());
+        TestSecondNestedObject testSecondNestedObject = new TestSecondNestedObject();
+        testSecondNestedObject.setTestObject(createTestObject());
+        testNestedObject.setTestSecondNestedObject(testSecondNestedObject);
+        List<Object> objectList = new ArrayList<Object>();
+        objectList.add(testNestedObject);
+        objectList.add(testNestedObject);
+        print(convertToJSON(objectList));
+//        print(convertToJSON(testNestedObject));
+//        print(convertToCSV(objectList, QUOTE.SINGLE));
+//        print(convertToJSON(objectList));
     }
     public void run(Object targetObject, MODE mode, QUOTE quote) {
         String result = "";
@@ -46,7 +61,18 @@ public class ObjectConverter extends BaseClass {
         }
         return resultString.deleteCharAt(0).toString();
     }
-
+    public String convertToCSV(List<Object> targetObjectList, QUOTE quote) {
+        StringBuilder resultString = new StringBuilder();
+        try {
+            for(Object tmpObject: targetObjectList) {
+                resultString.append(convertToCSV(tmpObject, quote));
+                resultString.append("\n");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return resultString.toString();
+    }
     public String convertToJSON(Object targetObject) {
         StringBuilder resultString = new StringBuilder();
         resultString.append("{");
@@ -56,13 +82,38 @@ public class ObjectConverter extends BaseClass {
                 resultString.append(",");
                 resultString.append(atatchQuote(String.valueOf(field.getName()), QUOTE.DOUBLE));
                 resultString.append(": ");
-                resultString.append(atatchQuote(String.valueOf(field.get(targetObject)), QUOTE.DOUBLE));
+                String typeName = field.get(targetObject).getClass().getTypeName();
+                print(typeName + "：");
+                if(typeName.contains("java.")) {
+                    print(field.getName() + "：プリミティブ型");
+                    resultString.append(atatchQuote(String.valueOf(field.get(targetObject)), QUOTE.DOUBLE));
+                } else {
+                    print(field.getName() + "：オブジェクト");
+                    resultString.append(convertToJSON(field.get(targetObject)));
+                }
+
             }
             if(resultString.toString().length() > 1) resultString.deleteCharAt(1);
         } catch (Exception e) {
             e.printStackTrace();
         }
         resultString.append("}");
+
+        return resultString.toString();
+    }
+    public String convertToJSON(List<Object> targetObjectList) {
+        StringBuilder resultString = new StringBuilder();
+        resultString.append("[");
+        try{
+            for(Object tmpObject: targetObjectList) {
+                resultString.append(",");
+                resultString.append(convertToJSON(tmpObject));
+            }
+            if(resultString.toString().length() > 1) resultString.deleteCharAt(1);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        resultString.append("]");
 
         return resultString.toString();
     }
