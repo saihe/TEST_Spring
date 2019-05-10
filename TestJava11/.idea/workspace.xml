@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="logback-core-1.2.3" />
+      <module name="TestJava11" />
+      <module name="log4j-over-slf4j" />
+      <module name="slf4j-jdk14" />
+      <module name="slf4j-log4j12" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7be3d103-2b6c-421d-afcd-2f143ce88dc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/azureSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/logback_core_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/logback-core-1.2.3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJava11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/integration/integration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/jcl-over-slf4j/jcl-over-slf4j.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/jul-to-slf4j/jul-to-slf4j.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/log4j-over-slf4j/log4j-over-slf4j.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/osgi-over-slf4j/osgi-over-slf4j.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-android/slf4j-android.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-api/slf4j-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-ext/slf4j-ext.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-jcl/slf4j-jcl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-jdk14/slf4j-jdk14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-log4j12/slf4j-log4j12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-migrator/slf4j-migrator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-nop/slf4j-nop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-simple/slf4j-simple.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-site/slf4j-site.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SandBox/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SandBox/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SandBox/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SandBox/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SandBox/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SandBox/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SandBox/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SandBox/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SandBox/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SandBox/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SandBox/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SandBox/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBatch/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestBatch/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBatch/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestLibrary/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TestLibrary/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestLibrary/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../TestLibrary/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestLibrary/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TestLibrary/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestLibrary/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../TestLibrary/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/jcl-over-slf4j/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-migrator/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-nop/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-jcl/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/log4j-over-slf4j/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-ext/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-simple/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-api/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-site/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-android/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-jdk14/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/integration/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/slf4j-log4j12/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/osgi-over-slf4j/target/" />
+    <ignored path="$PROJECT_DIR$/lib/slf4j-1.7.9/jul-to-slf4j/target/" />
+    <ignored path="$PROJECT_DIR$/lib/.gradle/" />
+    <ignored path="$PROJECT_DIR$/lib/build/" />
+    <ignored path="$PROJECT_DIR$/lib/logback-core-1.2.3/.gradle/" />
+    <ignored path="$PROJECT_DIR$/lib/logback-core-1.2.3/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/lib">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/lib/logback-core-1.2.3">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="673841246">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bk" value="3" />
+          <entry key="iml" value="5" />
+          <entry key="java" value="4" />
+          <entry key="properties" value="6" />
+          <entry key="xml" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="5" />
+          <entry key="JAVA" value="4" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="6" />
+          <entry key="XML" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="371" />
+          <entry key="properties" value="6" />
+          <entry key="xml" value="343" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="371" />
+          <entry key="Properties" value="6" />
+          <entry key="XML" value="343" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestJava11.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="324" column="45" lean-forward="true" selection-start-line="324" selection-start-column="45" selection-end-line="324" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testJava11/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hello</find>
+      <find>Main</find>
+      <find>idea.home</find>
+      <find>compile</find>
+      <find>javac</find>
+      <find>path</find>
+      <find>module_testJava11.</find>
+      <find>module_testJava11</find>
+      <find>compile.module.testjava11</find>
+      <find>module</find>
+      <find>compile.module.testJava11</find>
+      <find>dir</find>
+      <find>basedir</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$/lib/logback-core-1.2.3" value="C:\gradle\gradle-4.10.2" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$/lib/logback-core-1.2.3" value="4.10.2" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="logback-core-1.2.3" />
+              <option name="path" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="logback-core-1.2.3" />
+                <option name="path" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$/lib/logback-core-1.2.3">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'logback-core-1.2.3'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'logback-core-1.2.3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'logback-core-1.2.3'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'logback-core-1.2.3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'logback-core-1.2.3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'logback-core-1.2.3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'logback-core-1.2.3'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'logback-core-1.2.3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'logback-core-1.2.3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/lib/logback-core-1.2.3" value="0" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$/lib/logback-core-1.2.3">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/lib/logback-core-1.2.3">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/lib/logback-core-1.2.3" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="logback-core-1.2.3" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="C:/gradle/gradle-4.10.2/src/announce" />
+                  <option value="C:/gradle/gradle-4.10.2/src/antlr" />
+                  <option value="C:/gradle/gradle-4.10.2/src/base-services" />
+                  <option value="C:/gradle/gradle-4.10.2/src/base-services-groovy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-cache" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-cache-http" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-comparison" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-init" />
+                  <option value="C:/gradle/gradle-4.10.2/src/build-option" />
+                  <option value="C:/gradle/gradle-4.10.2/src/cli" />
+                  <option value="C:/gradle/gradle-4.10.2/src/code-quality" />
+                  <option value="C:/gradle/gradle-4.10.2/src/composite-builds" />
+                  <option value="C:/gradle/gradle-4.10.2/src/core" />
+                  <option value="C:/gradle/gradle-4.10.2/src/core-api" />
+                  <option value="C:/gradle/gradle-4.10.2/src/dependency-management" />
+                  <option value="C:/gradle/gradle-4.10.2/src/diagnostics" />
+                  <option value="C:/gradle/gradle-4.10.2/src/docs" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ear" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ide" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ide-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ide-play" />
+                  <option value="C:/gradle/gradle-4.10.2/src/installation-beacon" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-android-performance-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-integ-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-performance-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/internal-testing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/ivy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/jacoco" />
+                  <option value="C:/gradle/gradle-4.10.2/src/javascript" />
+                  <option value="C:/gradle/gradle-4.10.2/src/jvm-services" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-groovy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-java" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-jvm" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/language-scala" />
+                  <option value="C:/gradle/gradle-4.10.2/src/launcher" />
+                  <option value="C:/gradle/gradle-4.10.2/src/logging" />
+                  <option value="C:/gradle/gradle-4.10.2/src/maven" />
+                  <option value="C:/gradle/gradle-4.10.2/src/messaging" />
+                  <option value="C:/gradle/gradle-4.10.2/src/model-core" />
+                  <option value="C:/gradle/gradle-4.10.2/src/model-groovy" />
+                  <option value="C:/gradle/gradle-4.10.2/src/native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/osgi" />
+                  <option value="C:/gradle/gradle-4.10.2/src/persistent-cache" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-base" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-jvm" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/platform-play" />
+                  <option value="C:/gradle/gradle-4.10.2/src/plugin-development" />
+                  <option value="C:/gradle/gradle-4.10.2/src/plugin-use" />
+                  <option value="C:/gradle/gradle-4.10.2/src/plugins" />
+                  <option value="C:/gradle/gradle-4.10.2/src/process-services" />
+                  <option value="C:/gradle/gradle-4.10.2/src/publish" />
+                  <option value="C:/gradle/gradle-4.10.2/src/reporting" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-gcs" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-http" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-s3" />
+                  <option value="C:/gradle/gradle-4.10.2/src/resources-sftp" />
+                  <option value="C:/gradle/gradle-4.10.2/src/scala" />
+                  <option value="C:/gradle/gradle-4.10.2/src/signing" />
+                  <option value="C:/gradle/gradle-4.10.2/src/test-kit" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-base" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-junit-platform" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-jvm" />
+                  <option value="C:/gradle/gradle-4.10.2/src/testing-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/tooling-api" />
+                  <option value="C:/gradle/gradle-4.10.2/src/tooling-api-builders" />
+                  <option value="C:/gradle/gradle-4.10.2/src/tooling-native" />
+                  <option value="C:/gradle/gradle-4.10.2/src/version-control" />
+                  <option value="C:/gradle/gradle-4.10.2/src/workers" />
+                  <option value="C:/gradle/gradle-4.10.2/src/wrapper" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/ant-1.9.11.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/ant-launcher-1.9.11.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-api-metadata-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-base-services-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-base-services-groovy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-build-cache-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-build-option-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-cli-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-core-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-core-api-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-docs-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-installation-beacon-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-jvm-services-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-launcher-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-logging-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-messaging-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-model-core-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-model-groovy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-persistent-cache-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-process-services-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-resources-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-runtime-api-info-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-tooling-api-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/gradle-wrapper-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/groovy-all-2.4.15.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-announce-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-antlr-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-build-cache-http-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-build-comparison-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-build-init-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-code-quality-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-composite-builds-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-dependency-management-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-diagnostics-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ear-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ide-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ide-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ide-play-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-ivy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-jacoco-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-javascript-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-groovy-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-java-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-jvm-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-language-scala-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-maven-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-osgi-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-base-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-jvm-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-platform-play-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-plugin-development-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-plugin-use-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-plugins-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-publish-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-reporting-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-gcs-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-http-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-s3-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-resources-sftp-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-scala-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-signing-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-test-kit-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-base-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-junit-platform-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-jvm-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-testing-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-tooling-api-builders-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-tooling-native-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-version-control-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/gradle-workers-4.10.2.jar" />
+                  <option value="C:/gradle/gradle-4.10.2/lib/plugins/ivy-2.2.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/lib/logback-core-1.2.3" value="IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/testJava11/module-info.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/testjava11.properties" />
+        <option value="$PROJECT_DIR$/testjava11.xml" />
+        <option value="$PROJECT_DIR$/module_testjava11.xml" />
+        <option value="$PROJECT_DIR$/src/testJava11/Application.java" />
+        <option value="$PROJECT_DIR$/src/module-info.java" />
+        <option value="$PROJECT_DIR$/Testjava11.xml" />
+        <option value="$PROJECT_DIR$/TestJava11.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1916" />
+    <option name="y" value="-12" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Ant</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>パフォーマンスJava</id>
+          </State>
+          <State>
+            <id>フロー制御問題Groovy</id>
+          </State>
+          <State>
+            <id>命名規約Groovy</id>
+          </State>
+          <State>
+            <id>宣言の冗長性Java</id>
+          </State>
+          <State>
+            <id>推定されるバグJava</id>
+          </State>
+          <State>
+            <id>詳細または冗長なコード構成Java</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestJava11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJava11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestJava11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJava11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestJava11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJava11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testJava11" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="true" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="Testjava11" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557480604249" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Testjava11.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.43563217" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\test\TEST_Spring\TestJava11\src" />
+      <recent name="C:\work\test\TEST_Spring\TestJava11\src\testJava11" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="アプリケーション.IDE上で実行">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestJava11" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration name="IDE上で実行" type="Application" factoryName="アプリケーション">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="testJava11.Application" />
+      <module name="TestJava11" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="AntTarget" enabled="true" antfile="file://$PROJECT_DIR$/Testjava11.xml" target="build.modules" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="アプリケーション.IDE上で実行" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7be3d103-2b6c-421d-afcd-2f143ce88dc8" name="Default Changelist" comment="" />
+      <created>1557464193981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557464193981</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.13646056" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="7" />
+      <window_info id="Project Explorer" order="8" weight="0.32995737" />
+      <window_info id="Job Explorer" order="9" />
+      <window_info id="Azure Explorer" order="10" />
+      <window_info anchor="bottom" id="CheckStyle" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50053304" side_tool="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49946696" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Console" order="11" />
+      <window_info anchor="bottom" id="DB Execution Console" order="12" />
+      <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="14" />
+      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="15" />
+      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="16" />
+      <window_info anchor="bottom" id="Build" order="17" weight="0.32978722" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32978722" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info active="true" anchor="right" id="Ant Build" order="6" visible="true" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="パレット" order="8" />
+      <window_info anchor="right" id="Gradle" order="9" />
+    </layout>
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="integration" />
+    <module name="jcl-over-slf4j" />
+    <module name="jul-to-slf4j" />
+    <module name="osgi-over-slf4j" />
+    <module name="slf4j-android" />
+    <module name="slf4j-ext" />
+    <module name="slf4j-jcl" />
+    <module name="slf4j-migrator" />
+    <module name="slf4j-nop" />
+    <module name="slf4j-parent" />
+    <module name="slf4j-simple" />
+    <module name="slf4j-site" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/TestJava11.xml">
+      <targetFilters>
+        <filter targetName="compile.module.logback-core-1.2.3" isVisible="true" />
+        <filter targetName="compile.module.logback-core-1.2.3.production" isVisible="true" />
+        <filter targetName="compile.module.logback-core-1.2.3.tests" isVisible="true" />
+        <filter targetName="clean.module.logback-core-1.2.3" isVisible="true" />
+        <filter targetName="compile.module.testjava11" isVisible="true" />
+        <filter targetName="compile.module.testjava11.production" isVisible="true" />
+        <filter targetName="compile.module.testjava11.tests" isVisible="true" />
+        <filter targetName="clean.module.testjava11" isVisible="true" />
+        <filter targetName="init" isVisible="true" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="build.modules" isVisible="true" />
+        <filter targetName="all" isVisible="true" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Application.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml" />
+    <entry file="file://$PROJECT_DIR$/module_testjava11.xml" />
+    <entry file="file://$PROJECT_DIR$/lib/slf4j-1.8.0-beta4/slf4j-migrator/src/main/java/org/slf4j/migrator/Main.java" />
+    <entry file="file://$PROJECT_DIR$/lib/slf4j-1.8.0-beta4/slf4j-api/src/main/module_main.xml" />
+    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testJava11/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestJava11.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestJava11.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml.bk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestJava11.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="324" column="45" lean-forward="true" selection-start-line="324" selection-start-column="45" selection-end-line="324" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>logback-core-1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>logback-core-1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="integration" target="1.5" />
+      <module name="jcl-over-slf4j" target="1.5" />
+      <module name="jul-to-slf4j" target="1.5" />
+      <module name="log4j-over-slf4j" target="1.5" />
+      <module name="osgi-over-slf4j" target="1.5" />
+      <module name="slf4j-android" target="1.5" />
+      <module name="slf4j-api" target="1.5" />
+      <module name="slf4j-ext" target="1.5" />
+      <module name="slf4j-jcl" target="1.5" />
+      <module name="slf4j-jdk14" target="1.5" />
+      <module name="slf4j-log4j12" target="1.5" />
+      <module name="slf4j-migrator" target="1.5" />
+      <module name="slf4j-nop" target="1.5" />
+      <module name="slf4j-parent" target="1.5" />
+      <module name="slf4j-simple" target="1.5" />
+      <module name="slf4j-site" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
