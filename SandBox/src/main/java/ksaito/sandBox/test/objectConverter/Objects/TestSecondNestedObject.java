@@ -1,4 +1,4 @@
-package ksaito.sandBox.test.objectConverter;
+package ksaito.sandBox.test.objectConverter.Objects;
 
 public class TestSecondNestedObject {
     private TestObject testObject;

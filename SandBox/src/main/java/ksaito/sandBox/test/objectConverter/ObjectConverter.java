@@ -1,6 +1,9 @@
 package ksaito.sandBox.test.objectConverter;
 
 import ksaito.sandBox.BaseClass;
+import ksaito.sandBox.test.objectConverter.Objects.TestNestedObject;
+import ksaito.sandBox.test.objectConverter.Objects.TestObject;
+import ksaito.sandBox.test.objectConverter.Objects.TestSecondNestedObject;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
