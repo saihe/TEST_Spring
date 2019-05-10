@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="testJava11" default="jar">
+  <property file="TestJava11.properties"/>
+  <!-- 以下自分で追加 -->
+  <target name="compile">
+    <mkdir dir="${build.dest}" />
+    <javac includeantruntime = "true"
+           srcdir="${build.src}"
+           debug="${debug}"
+           destdir="${build.dest}"
+           encoding="${encoding}"
+    >
+      <compilerarg value="-implicit:class" />
+      <compilerarg value="-g" />
+      <compilerarg value="--class-path=${basedir}\lib\logback-core-1.2.3" />
+      <compilerarg value="--module-path=${build.lib}\logback-core-1.2.3" />
+      <compilerarg value="--module-source-path=${build.lib}\logback-core-1.2.3" />
+      <compilerarg value="--add-modules=logback.core" />
+      <compilerarg value="--add-modules=logback.classic" />
+      <compilerarg value="--add-modules=slf4j.api" />
+      <compilerarg value="--add-reads module=slf4j.api" />
+    </javac>
+  </target>
+  <target name="jar" depends="compile">
+    <jar
+            jarfile="${build.jar}"
+            basedir="${build.dest}">
+      <fileset dir="${build.dest}"/>
+      <restrict>
+        <archives>
+          <zips>
+            <fileset dir="${build.lib}\logback-core-1.2.3" includes="**/*.jar"/>
+          </zips>
+        </archives>
+      </restrict>
+      <manifest>
+        <attribute name="Main-Class" value="${main.class}"/>
+      </manifest>
+    </jar>
+  </target>
+</project>

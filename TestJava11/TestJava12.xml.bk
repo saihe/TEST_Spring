@@ -301,19 +301,20 @@
   <target name="compile">
     <mkdir dir="${build.dest}" />
     <javac includeantruntime = "true"
+           srcdir="${build.src}"
            debug="${debug}"
            destdir="${build.dest}"
            encoding="${encoding}"
     >
-      <src path="${build.src}" />
-      <src path="${build.lib}/logback-core-1.2.3" />
       <compilerarg value="-implicit:class" />
       <compilerarg value="-g" />
-      <compilerarg value="--class-path=${build.src}" />
-      <compilerarg value="--module-path=${build.lib}/logback-core-1.2.3" />
+      <compilerarg value="--class-path=${basedir}\lib\logback-core-1.2.3" />
+      <compilerarg value="--module-path=${build.lib}\logback-core-1.2.3" />
+      <compilerarg value="--module-source-path=${build.lib}\logback-core-1.2.3" />
       <compilerarg value="--add-modules=logback.core" />
       <compilerarg value="--add-modules=logback.classic" />
       <compilerarg value="--add-modules=slf4j.api" />
+      <compilerarg value="--add-reads module=slf4j.api" />
     </javac>
   </target>
   <target name="jar" depends="compile">
@@ -324,7 +325,7 @@
       <restrict>
         <archives>
           <zips>
-            <fileset dir="${build.lib}/logback-core-1.2.3" includes="**/*.jar"/>
+            <fileset dir="${build.lib}\logback-core-1.2.3" includes="**/*.jar"/>
           </zips>
         </archives>
       </restrict>
