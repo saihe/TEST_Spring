@@ -1,0 +1,53 @@
+17:15:58,517 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+17:15:58,517 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:15:58,517 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/C:/work/test/TEST_Spring/TestBootJar/build/libs/TestBootJar-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+17:15:58,555 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@5cb0d902 - URL [jar:file:/C:/work/test/TEST_Spring/TestBootJar/build/libs/TestBootJar-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+17:15:58,640 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:15:58,640 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:15:58,655 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+17:15:58,771 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+17:15:58,771 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+17:15:58,771 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+17:15:58,771 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to INFO
+17:15:58,771 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ksaito] to DEBUG
+17:15:58,771 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+17:15:58,771 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+17:15:58,771 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:15:58,787 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@46fbb2c1 - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.1.RELEASE)
+
+2019/05/13 17:15:59.644,INFO ,,StartupInfoLogger,logStarting,,Starting Application on hws0000573pc with PID 2024 (C:\work\test\TEST_Spring\TestBootJar\build\libs\TestBootJar-0.0.1-SNAPSHOT.jar started by p_saito.kyohei in C:\work\test\TEST_Spring\TestBootJar\build\libs)
+2019/05/13 17:15:59.659,DEBUG,,StartupInfoLogger,logStarting,,Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019/05/13 17:15:59.659,INFO ,,SpringApplication,logStartupProfileInfo,,No active profile set, falling back to default profiles: default
+2019/05/13 17:15:59.775,INFO ,,AbstractApplicationContext,prepareRefresh,,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@591f989e: startup date [Mon May 13 17:15:59 JST 2019]; root of context hierarchy
+2019/05/13 17:16:00.945,WARN ,,AbstractApplicationContext,refresh,,Exception encountered during context initialization - cancelling refresh attempt: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'messagesBean': Could not bind properties to 'MessagesBean' : prefix=message, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'message' to ksaito.TestBootJar.bean.MessagesBean$$EnhancerBySpringCGLIB$$26f26a12
+2019/05/13 17:16:00.967,INFO ,,ConditionEvaluationReportLoggingListener,logAutoConfigurationReport,,
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019/05/13 17:16:00.977,ERROR,,LoggingFailureAnalysisReporter,report,,
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'message' to ksaito.TestBootJar.bean.MessagesBean$$EnhancerBySpringCGLIB$$26f26a12:
+
+    Property: message.m001
+    Value: Hello world.
+    Origin: class path resource [application.yml]:2:9
+    Reason: No setter found for property: m001
+
+Action:
+
+Update your application's configuration
+

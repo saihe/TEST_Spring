@@ -38,6 +38,17 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TestBootJar" />
+        <option name="gradleHome" value="C:/gradle/gradle-4.10.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/TestBootJar" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/TestLibrary" />
         <option name="gradleHome" value="C:/gradle/gradle-4.10.2" />
         <option name="modules">

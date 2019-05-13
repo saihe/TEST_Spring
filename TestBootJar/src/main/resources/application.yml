@@ -1,0 +1,25 @@
+messages:
+  m001: "Hello world."
+
+batches:
+  b001:
+    initialDelayString: "1000"
+    fixedDelayString: "1000"
+  b002:
+    initialDelayString: "2000"
+    fixedDelayString: "2000"
+
+
+logging:
+  # file: ../logs/consumer.log
+  pattern:
+    console: "%d{HH:mm:ss} %highlight(%-5level) %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] [%-5level] [userId=%X{userId}] %logger{36} - %msg%n"
+  level:
+    root: WARN
+    org:
+      springframework:
+        web: WARN
+        security: DEBUG
+      hibernate: ERROR
+    ksaito: DEBUG
