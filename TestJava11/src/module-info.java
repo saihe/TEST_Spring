@@ -1,3 +1,3 @@
-module TestJava11 {
+module TestJava {
     requires slf4j.api;
 }

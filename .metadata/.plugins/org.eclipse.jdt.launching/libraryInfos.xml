@@ -42,6 +42,7 @@
 </endorsedDirs>
 </libraryInfo>
 <libraryInfo home="/Applications/Eclipse_2019-03.app/Contents/java/12/Home" version="12"/>
+<libraryInfo home="/Applications/Eclipse_2019-03.app/Contents/java/11/Home" version="11.0.2"/>
 <libraryInfo home="/Applications/Eclipse_4.8.0.app/Contents/java/10/Home" version="10"/>
 <libraryInfo home="/Applications/Eclipse_2019-03.app/Contents/java/8/Home" version="1.8.0_202">
 <bootpath>

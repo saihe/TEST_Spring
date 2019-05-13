@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="testJava11" default="all">
+
+
+  <property file="TestJava11.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!--
+  <property name="skip.tests" value="true"/>
+   -->
+
+  <!-- Compiler options -->
+
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*.yarb/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.war"/>
+    <include name="*.swc"/>
+    <include name="*.zip"/>
+    <include name="*.egg"/>
+    <include name="*.ane"/>
+    <include name="*.jar"/>
+    <include name="*.ear"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+  </patternset>
+
+  <!-- JDK definitions -->
+
+  <property name="jdk.bin.11" value="${jdk.home.11}/bin"/>
+  <path id="jdk.classpath.11">
+    <fileset dir="${jdk.home.11}">
+      <include name="../jdk-11.0.3!/java.base"/>
+      <include name="../jdk-11.0.3!/java.compiler"/>
+      <include name="../jdk-11.0.3!/java.datatransfer"/>
+      <include name="../jdk-11.0.3!/java.desktop"/>
+      <include name="../jdk-11.0.3!/java.instrument"/>
+      <include name="../jdk-11.0.3!/java.logging"/>
+      <include name="../jdk-11.0.3!/java.management"/>
+      <include name="../jdk-11.0.3!/java.management.rmi"/>
+      <include name="../jdk-11.0.3!/java.naming"/>
+      <include name="../jdk-11.0.3!/java.net.http"/>
+      <include name="../jdk-11.0.3!/java.prefs"/>
+      <include name="../jdk-11.0.3!/java.rmi"/>
+      <include name="../jdk-11.0.3!/java.scripting"/>
+      <include name="../jdk-11.0.3!/java.se"/>
+      <include name="../jdk-11.0.3!/java.security.jgss"/>
+      <include name="../jdk-11.0.3!/java.security.sasl"/>
+      <include name="../jdk-11.0.3!/java.smartcardio"/>
+      <include name="../jdk-11.0.3!/java.sql"/>
+      <include name="../jdk-11.0.3!/java.sql.rowset"/>
+      <include name="../jdk-11.0.3!/java.transaction.xa"/>
+      <include name="../jdk-11.0.3!/java.xml"/>
+      <include name="../jdk-11.0.3!/java.xml.crypto"/>
+      <include name="../jdk-11.0.3!/jdk.accessibility"/>
+      <include name="../jdk-11.0.3!/jdk.aot"/>
+      <include name="../jdk-11.0.3!/jdk.attach"/>
+      <include name="../jdk-11.0.3!/jdk.charsets"/>
+      <include name="../jdk-11.0.3!/jdk.compiler"/>
+      <include name="../jdk-11.0.3!/jdk.crypto.cryptoki"/>
+      <include name="../jdk-11.0.3!/jdk.crypto.ec"/>
+      <include name="../jdk-11.0.3!/jdk.crypto.mscapi"/>
+      <include name="../jdk-11.0.3!/jdk.dynalink"/>
+      <include name="../jdk-11.0.3!/jdk.editpad"/>
+      <include name="../jdk-11.0.3!/jdk.hotspot.agent"/>
+      <include name="../jdk-11.0.3!/jdk.httpserver"/>
+      <include name="../jdk-11.0.3!/jdk.internal.ed"/>
+      <include name="../jdk-11.0.3!/jdk.internal.jvmstat"/>
+      <include name="../jdk-11.0.3!/jdk.internal.le"/>
+      <include name="../jdk-11.0.3!/jdk.internal.opt"/>
+      <include name="../jdk-11.0.3!/jdk.internal.vm.ci"/>
+      <include name="../jdk-11.0.3!/jdk.internal.vm.compiler"/>
+      <include name="../jdk-11.0.3!/jdk.internal.vm.compiler.management"/>
+      <include name="../jdk-11.0.3!/jdk.jartool"/>
+      <include name="../jdk-11.0.3!/jdk.javadoc"/>
+      <include name="../jdk-11.0.3!/jdk.jcmd"/>
+      <include name="../jdk-11.0.3!/jdk.jconsole"/>
+      <include name="../jdk-11.0.3!/jdk.jdeps"/>
+      <include name="../jdk-11.0.3!/jdk.jdi"/>
+      <include name="../jdk-11.0.3!/jdk.jdwp.agent"/>
+      <include name="../jdk-11.0.3!/jdk.jfr"/>
+      <include name="../jdk-11.0.3!/jdk.jlink"/>
+      <include name="../jdk-11.0.3!/jdk.jshell"/>
+      <include name="../jdk-11.0.3!/jdk.jsobject"/>
+      <include name="../jdk-11.0.3!/jdk.jstatd"/>
+      <include name="../jdk-11.0.3!/jdk.localedata"/>
+      <include name="../jdk-11.0.3!/jdk.management"/>
+      <include name="../jdk-11.0.3!/jdk.management.agent"/>
+      <include name="../jdk-11.0.3!/jdk.management.jfr"/>
+      <include name="../jdk-11.0.3!/jdk.naming.dns"/>
+      <include name="../jdk-11.0.3!/jdk.naming.rmi"/>
+      <include name="../jdk-11.0.3!/jdk.net"/>
+      <include name="../jdk-11.0.3!/jdk.pack"/>
+      <include name="../jdk-11.0.3!/jdk.rmic"/>
+      <include name="../jdk-11.0.3!/jdk.scripting.nashorn"/>
+      <include name="../jdk-11.0.3!/jdk.scripting.nashorn.shell"/>
+      <include name="../jdk-11.0.3!/jdk.sctp"/>
+      <include name="../jdk-11.0.3!/jdk.security.auth"/>
+      <include name="../jdk-11.0.3!/jdk.security.jgss"/>
+      <include name="../jdk-11.0.3!/jdk.unsupported"/>
+      <include name="../jdk-11.0.3!/jdk.unsupported.desktop"/>
+      <include name="../jdk-11.0.3!/jdk.xml.dom"/>
+      <include name="../jdk-11.0.3!/jdk.zipfs"/>
+    </fileset>
+  </path>
+
+  <property name="project.jdk.home" value="${jdk.home.11}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.11}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.11"/>
+
+
+  <!-- Project Libraries -->
+
+  <path id="library.logback-core-1.2.classpath">
+    <fileset dir="${basedir}/lib/logback-core-1.2.3">
+      <patternset refid="library.patterns"/>
+    </fileset>
+  </path>
+
+  <!-- Modules -->
+
+
+  <!-- Module logback-core-1.2.3 -->
+
+  <dirname property="module.logback-core-1.2.3.basedir" file="${ant.file}"/>
+
+
+  <property name="module.jdk.home.logback-core-1.2.3" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.logback-core-1.2.3" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.logback-core-1.2.3" value="${project.jdk.classpath}"/>
+
+  <property name="compiler.args.logback-core-1.2.3" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+
+  <property name="logback-core-1.2.3.output.dir" value="${module.logback-core-1.2.3.basedir}/out/production/logback-core-1.2.3"/>
+  <property name="logback-core-1.2.3.testoutput.dir" value="${module.logback-core-1.2.3.basedir}/out/test/logback-core-1.2.3"/>
+
+  <path id="logback-core-1.2.3.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+
+  <path id="logback-core-1.2.3.module.production.classpath">
+    <path refid="${module.jdk.classpath.logback-core-1.2.3}"/>
+  </path>
+
+  <path id="logback-core-1.2.3.runtime.production.module.classpath">
+    <pathelement location="${logback-core-1.2.3.output.dir}"/>
+  </path>
+
+  <path id="logback-core-1.2.3.module.classpath">
+    <path refid="${module.jdk.classpath.logback-core-1.2.3}"/>
+    <pathelement location="${logback-core-1.2.3.output.dir}"/>
+  </path>
+
+  <path id="logback-core-1.2.3.runtime.module.classpath">
+    <pathelement location="${logback-core-1.2.3.testoutput.dir}"/>
+    <pathelement location="${logback-core-1.2.3.output.dir}"/>
+  </path>
+
+
+  <patternset id="excluded.from.module.logback-core-1.2.3">
+    <patternset refid="ignored.files"/>
+  </patternset>
+
+  <patternset id="excluded.from.compilation.logback-core-1.2.3">
+    <patternset refid="excluded.from.module.logback-core-1.2.3"/>
+  </patternset>
+
+
+  <target name="compile.module.logback-core-1.2.3" depends="compile.module.logback-core-1.2.3.production,compile.module.logback-core-1.2.3.tests" description="Compile module logback-core-1.2.3"/>
+
+  <target name="compile.module.logback-core-1.2.3.production" description="Compile module logback-core-1.2.3; 製品クラス"/>
+
+  <target name="compile.module.logback-core-1.2.3.tests" depends="compile.module.logback-core-1.2.3.production" description="compile module logback-core-1.2.3; テスト・クラス" unless="skip.tests"/>
+
+  <target name="clean.module.logback-core-1.2.3" description="cleanup module">
+    <delete dir="${logback-core-1.2.3.output.dir}"/>
+    <delete dir="${logback-core-1.2.3.testoutput.dir}"/>
+  </target>
+
+
+  <!-- Module TestJava11 -->
+
+  <dirname property="module.testjava11.basedir" file="${ant.file}"/>
+
+
+  <property name="module.jdk.home.testjava11" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.testjava11" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.testjava11" value="${project.jdk.classpath}"/>
+
+  <property name="compiler.args.testjava11" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+
+  <property name="testjava11.output.dir" value="${module.testjava11.basedir}/out/production/TestJava11"/>
+  <property name="testjava11.testoutput.dir" value="${module.testjava11.basedir}/out/test/TestJava11"/>
+
+  <path id="testjava11.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+
+  <path id="testjava11.module.production.classpath">
+    <path refid="${module.jdk.classpath.testjava11}"/>
+    <path refid="library.logback-core-1.2.classpath"/>
+  </path>
+
+  <path id="testjava11.runtime.production.module.classpath">
+    <pathelement location="${testjava11.output.dir}"/>
+    <path refid="library.logback-core-1.2.classpath"/>
+  </path>
+
+  <path id="testjava11.module.classpath">
+    <path refid="${module.jdk.classpath.testjava11}"/>
+    <pathelement location="${testjava11.output.dir}"/>
+    <path refid="library.logback-core-1.2.classpath"/>
+  </path>
+
+  <path id="testjava11.runtime.module.classpath">
+    <pathelement location="${testjava11.testoutput.dir}"/>
+    <pathelement location="${testjava11.output.dir}"/>
+    <path refid="library.logback-core-1.2.classpath"/>
+  </path>
+
+
+  <patternset id="excluded.from.module.testjava11">
+    <patternset refid="ignored.files"/>
+  </patternset>
+
+  <patternset id="excluded.from.compilation.testjava11">
+    <patternset refid="excluded.from.module.testjava11"/>
+  </patternset>
+
+  <path id="testjava11.module.sourcepath">
+    <dirset dir="${module.testjava11.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+
+
+  <target name="compile.module.testjava11" depends="compile.module.testjava11.production,compile.module.testjava11.tests" description="Compile module TestJava11"/>
+
+  <target name="compile.module.testjava11.production" description="Compile module TestJava11; 製品クラス">
+    <mkdir dir="${testjava11.output.dir}"/>
+    <javac destdir="${testjava11.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.testjava11}/javac">
+      <compilerarg line="${compiler.args.testjava11}"/>
+      <bootclasspath refid="testjava11.module.bootclasspath"/>
+      <classpath refid="testjava11.module.production.classpath"/>
+      <src refid="testjava11.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.testjava11"/>
+    </javac>
+
+    <copy todir="${testjava11.output.dir}">
+      <fileset dir="${module.testjava11.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="compile.module.testjava11.tests" depends="compile.module.testjava11.production" description="compile module TestJava11; テスト・クラス" unless="skip.tests"/>
+
+  <target name="clean.module.testjava11" description="cleanup module">
+    <delete dir="${testjava11.output.dir}"/>
+    <delete dir="${testjava11.testoutput.dir}"/>
+  </target>
+
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+
+  <target name="clean" depends="clean.module.logback-core-1.2.3, clean.module.testjava11" description="cleanup all"/>
+
+  <target name="build.modules" depends="init, clean, compile.module.logback-core-1.2.3, compile.module.testjava11" description="build all modules"/>
+
+  <target name="all" depends="build.modules" description="build all"/>
+
+  <!-- 以下自分で追加 -->
+  <target name="compile">
+    <mkdir dir="${build.dest}" />
+    <javac includeantruntime = "true"
+           srcdir="${build.src}"
+           debug="${debug}"
+           destdir="${build.dest}"
+           encoding="${encoding}"
+    >
+      <compilerarg value="-implicit:class" />
+      <compilerarg value="-g" />
+      <compilerarg value="--class-path=${basedir}\lib\logback-core-1.2.3" />
+      <compilerarg value="--module-path=${build.lib}\logback-core-1.2.3" />
+      <compilerarg value="--module-source-path=${build.lib}\logback-core-1.2.3" />
+      <compilerarg value="--add-modules=logback.core" />
+      <compilerarg value="--add-modules=logback.classic" />
+      <compilerarg value="--add-modules=slf4j.api" />
+      <compilerarg value="--add-reads module=slf4j.api" />
+    </javac>
+  </target>
+  <target name="jar" depends="compile">
+    <jar
+            jarfile="${build.jar}"
+            basedir="${build.dest}">
+      <fileset dir="${build.dest}"/>
+      <restrict>
+        <archives>
+          <zips>
+            <fileset dir="${build.lib}\logback-core-1.2.3" includes="**/*.jar"/>
+          </zips>
+        </archives>
+      </restrict>
+      <manifest>
+        <attribute name="Main-Class" value="${main.class}"/>
+      </manifest>
+    </jar>
+  </target>
+</project>
