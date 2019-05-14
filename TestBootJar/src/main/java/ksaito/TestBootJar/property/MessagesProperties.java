@@ -15,7 +15,7 @@ import java.util.Map;
 @Component
 @ConfigurationProperties(prefix = "")
 public class MessagesProperties {
-    private Map<String, String> messages = new HashMap<String, String>();
+    private Map<String, String> messages;
     public String getMessage(String messageId) {
         return this.messages.get(messageId);
     }
