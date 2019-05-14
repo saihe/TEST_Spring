@@ -1,6 +1,7 @@
 package ksaito.TestBootJar.service;
 
 import ksaito.TestBootJar.property.*;
+import ksaito.testLibrary.Library01;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,19 +17,15 @@ public class PropertiesService {
     private BatchesProperties batchesProperties;
 
     public void printMessage (String messageId) {
-        System.out.println("==============メッセージ全部==============");
-        for(String key: messagesBean.getMessages().keySet()) {
-            System.out.println(key + "：" + messagesBean.getMessages().get(key));
-        }
-        System.out.println("==========================================");
-        System.out.println(messageId + "：" + messagesBean.getMessage(messageId));
+        Library01.print("==============メッセージ全部==============");
+        messagesBean.getMessages().keySet().forEach(key -> Library01.print(key + "：" + messagesBean.getMessages().get(key)));
+        Library01.print("==========================================");
+        Library01.print(messageId + "：" + messagesBean.getMessage(messageId));
     }
     public void printBatch (String batchId) {
-        System.out.println("==============バッチ情報全部==============");
-        for(String key: batchesProperties.getBatches().keySet()) {
-            System.out.println(key + "：" + batchesProperties.getBatches().get(key));
-        }
-        System.out.println("==========================================");
-        System.out.println(batchId + "：" + batchesProperties.getBatch(batchId));
+        Library01.print("==============バッチ情報全部==============");
+        batchesProperties.getBatches().keySet().forEach(key ->  Library01.print(key + "：" + batchesProperties.getBatches().get(key)));
+        Library01.print("==========================================");
+        Library01.print(batchId + "：" + batchesProperties.getBatch(batchId));
     }
 }
