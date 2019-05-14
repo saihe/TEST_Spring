@@ -15,8 +15,8 @@ import java.util.Map;
 @Component
 @ConfigurationProperties(prefix = "")
 public class BatchesProperties {
-    private Map<String, String> batches = new HashMap<String, String>();
-    public String getBatch(String batchId) {
+    private Map<String, SubBatchProperties> batches = new HashMap<String, SubBatchProperties>();
+    public SubBatchProperties getBatch(String batchId) {
         return this.batches.get(batchId);
     }
 }

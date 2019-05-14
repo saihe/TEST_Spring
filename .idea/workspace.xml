@@ -2,32 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283d6cae-39c6-4e0b-9266-95b3ef636829" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestBootJar/.idea/azureSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/job/Job001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/service/PropertiesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBootJar/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/SubBatchProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestBatch/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TestBatch/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestBatch/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TestBatch/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TestLibrary/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/build/classes/java/main/ksaito/TestBootJar/job/Job001.class" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/build/classes/java/main/ksaito/TestBootJar/job/Job001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/build/classes/java/main/ksaito/TestBootJar/property/BatchesProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/build/classes/java/main/ksaito/TestBootJar/property/BatchesProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/build/classes/java/main/ksaito/TestBootJar/property/BatchesProperties2$SubBatchProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/build/classes/java/main/ksaito/TestBootJar/property/BatchesProperties2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/build/classes/java/main/ksaito/TestBootJar/property/MessagesProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/build/classes/java/main/ksaito/TestBootJar/property/MessagesProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/build/classes/java/main/ksaito/TestBootJar/service/PropertiesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/build/classes/java/main/ksaito/TestBootJar/service/PropertiesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/job/Job001.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/job/Job001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/MessagesProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/MessagesProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/service/PropertiesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/service/PropertiesService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -192,8 +186,8 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -202,7 +196,7 @@
           <entry key="class" value="2" />
           <entry key="gradle" value="45" />
           <entry key="iml" value="1" />
-          <entry key="java" value="77" />
+          <entry key="java" value="91" />
           <entry key="md" value="1" />
           <entry key="properties" value="8" />
           <entry key="xml" value="11" />
@@ -214,7 +208,7 @@
           <entry key="CLASS" value="4" />
           <entry key="Groovy" value="45" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="77" />
+          <entry key="JAVA" value="91" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="8" />
           <entry key="XML" value="11" />
@@ -226,7 +220,7 @@
           <entry key="Application" value="5" />
           <entry key="dummy" value="14" />
           <entry key="gradle" value="912" />
-          <entry key="java" value="10915" />
+          <entry key="java" value="11385" />
           <entry key="properties" value="22" />
           <entry key="xml" value="195" />
           <entry key="yml" value="267" />
@@ -236,7 +230,7 @@
         <counts>
           <entry key="CLASS" value="5" />
           <entry key="Groovy" value="912" />
-          <entry key="JAVA" value="10915" />
+          <entry key="JAVA" value="11385" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Properties" value="22" />
           <entry key="XML" value="195" />
@@ -250,26 +244,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestBootJar/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
+            <state relative-caret-position="519">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/job/Job001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+            <state relative-caret-position="281">
+              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -280,8 +274,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/service/PropertiesService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="349">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -290,21 +284,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties.java">
+        <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/SubBatchProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="24" lean-forward="true" selection-start-line="18" selection-end-line="24" />
+            <state relative-caret-position="204">
+              <caret line="12" column="78" lean-forward="true" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
               <folding>
-                <element signature="e#497#525#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2630,10 +2617,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test003/build.gradle" />
-        <option value="$PROJECT_DIR$/test003/src/main/java/ksaito/test003/app/api001/Api001Controller.java" />
-        <option value="$PROJECT_DIR$/test004/src/ksaito/test004/Main.java" />
-        <option value="$PROJECT_DIR$/TestSpringBatch/src/main/java/ksaito/TestSpringBatch/TestSpringBatchApplication.java" />
         <option value="$PROJECT_DIR$/TestSpringBatch/src/main/java/ksaito/TestSpringBatch/SpringBatch.java" />
         <option value="$PROJECT_DIR$/TestSpringBatch/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/TestSpringBatch/build.gradle" />
@@ -2677,14 +2660,18 @@
         <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/Application.java" />
         <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/bean/MessagesBean.java" />
         <option value="$PROJECT_DIR$/TestBootJar/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/MessagesProperties.java" />
+        <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties3.java" />
+        <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties2.java" />
+        <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesPropertiesB001.java" />
         <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties.java" />
         <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/service/PropertiesService.java" />
-        <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties2.java" />
+        <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/SubBatchProperties.java" />
         <option value="$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/job/Job001.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1773" />
     <option name="y" value="179" />
     <option name="width" value="1026" />
@@ -2885,7 +2872,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -3018,10 +3004,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557739935146" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557798603047" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TestBootJar/build.gradle" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
@@ -3029,21 +3016,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\test\TEST_Spring\TestBootJar\src\main\resources" />
       <recent name="C:\work\test\TEST_Spring\TestJava11\src" />
-      <recent name="C:\work\test\TEST_Spring\TestJava11" />
-      <recent name="C:\work\test\TEST_Spring\TestSpringBatch\src\main\resources" />
+      <recent name="C:\work\test\TEST_Spring\TestJava11\src\main\java\testJava11" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ksaito.TestBootJar.property" />
       <recent name="ksaito.sandBox.ryu.after" />
       <recent name="ksaito.sandBox.ryu" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\test\TEST_Spring\TestBootJar\src\main\resources" />
       <recent name="C:\work\test\TEST_Spring\TestJava11\src" />
-      <recent name="C:\work\test\TEST_Spring\TestJava11\src\main\java\testJava11" />
+      <recent name="C:\work\test\TEST_Spring\TestJava11" />
+      <recent name="C:\work\test\TEST_Spring\TestSpringBatch\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3244,7 +3231,7 @@
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -3257,7 +3244,7 @@
       <window_info id="Job Explorer" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.35744682" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35744682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -3329,21 +3316,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/Ryu01_2.java" />
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/after/Ryu01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/ryu/before/Ryu01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SandBox/src/main/java/ksaito/sandBox/test/innerClass/TestInnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-373">
@@ -3466,15 +3438,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/Application">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/Application" />
     <entry file="file://$PROJECT_DIR$/TestJava12/src/main/java/ksaito/test/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -3586,33 +3553,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestBootJar/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/MessagesProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#368#384#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -3624,37 +3565,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestBootJar/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#543#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesPropertiesB001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" lean-forward="true" selection-start-line="18" selection-end-line="24" />
+        <state relative-caret-position="187">
+          <caret line="20" selection-start-line="19" selection-end-line="20" />
           <folding>
-            <element signature="e#497#525#0" expanded="true" />
+            <element signature="e#548#576#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/BatchesProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="204">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#496#524#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/service/PropertiesService.java">
+    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/SubBatchProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="204">
+          <caret line="12" column="78" lean-forward="true" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/property/MessagesProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/job/Job001.java">
+    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/service/PropertiesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+        <state relative-caret-position="349">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3663,8 +3645,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBootJar/src/main/java/ksaito/TestBootJar/job/Job001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

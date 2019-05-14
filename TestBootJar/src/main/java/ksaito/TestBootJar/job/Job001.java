@@ -22,9 +22,8 @@ public class Job001 {
             log.info("{}：[{}]", new Object[]{"実行", "B001"});
             log.info(MessageFormat.format("{0}：[{1}]", new Object[]{"実行", "B001"}));
             Library01.print(System.getProperty("java.class.path"));
-            propertiesService.printMessage("message.001");
+            propertiesService.printMessage("m001");
             propertiesService.printBatch("b001");
-            propertiesService.printBatch2("b001");
             log.debug("Hello world.");
             System.exit(0);
         } catch (Exception e) {
