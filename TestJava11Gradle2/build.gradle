@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+group 'ksaito'
+mainClassName = 'ksaito.testJava11Gradle2.Application'
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compileOnly module ('org.projectlombok:lombok:1.18.8')
+    annotationProcessor ('org.projectlombok:lombok:1.18.8')
+    compile fileTree (dir: 'C:/work/test/lib', include: [
+            'dataloader-45.0.0-uber.jar'
+            , 'aws-java-sdk-1.11.538.jar'
+            , 'logback-core-1.2.3.jar'
+            , 'slf4j-api-1.7.25.jar'
+            , 'logback-classic-1.2.3.jar'
+    ])
+}
+
+compileJava {
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath
+        ]
+        classpath = files()
+    }
+}
+
+jar {
+    manifest {
+        attributes (
+                'Main-Class' : 'ksaito.testJava11Gradle2.Application'
+                , 'Class-Path': configurations.runtime.files.collect{ project.uri(it) }.join(' ')
+        )
+    }
+    jar.into('lib') {
+        from configurations.runtime
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foods>
+    <food id ="1">
+        <name>バナナ</name>
+        <color>黄色</color>
+    </food>
+    <food id ="2">
+        <name>りんご</name>
+        <color>赤</color>
+    </food>
+</foods>

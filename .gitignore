@@ -1,3 +1,13 @@
 /.metadata/
 /.idea
 /.metadata
+.gradle
+build
+.idea
+classes
+TestAnt-1.0.jar
+bin
+TestAnt2-1.0.jar
+TestJava11.jar
+.settings
+gradle
