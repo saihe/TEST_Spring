@@ -20,6 +20,9 @@ dependencies {
     compile module ('org.slf4j:slf4j-api:1.7.25')
     compile module ('ch.qos.logback:logback-core:1.2.3')
     compile module ('ch.qos.logback:logback-classic:1.2.3')
+    compile module ('dom4j:dom4j:1.6.1')
+    compile module ('jaxen:jaxen:1.2.0')
+
 }
 
 compileJava {
@@ -35,7 +38,11 @@ jar {
     manifest {
         attributes (
                 'Main-Class' : 'ksaito.testJava11Gradle.Application'
+                , 'Class-Path': configurations.runtime.files.collect{ project.uri(it) }.join(' ')
         )
     }
-    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    jar.into('lib') {
+        from configurations.runtime
+    }
+//    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
 }
