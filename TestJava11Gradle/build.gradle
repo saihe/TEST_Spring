@@ -1,0 +1,55 @@
+plugins {
+    id 'java'
+}
+
+group 'ksaito'
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compileOnly 'org.projectlombok:lombok:1.18.8'
+    annotationProcessor 'org.projectlombok:lombok:1.18.8'
+
+    compile ('org.slf4j:slf4j-api:1.7.25')
+//    implementation ('org.slf4j:slf4j-jdk14:1.7.25')
+//    compile ('org.slf4j:jcl-over-slf4j:1.7.25')
+//    compileOnly ('org.slf4j:slf4j-log4j12:1.7.25')
+//    compile ('ch.qos.logback:logback-core:1.2.3')
+//    compile ('ch.qos.logback:logback-classic:1.2.3')
+    runtime module ('com.github.mygreen:super-csv-annotation:2.2')
+    runtime module ('org.projectlombok:lombok:1.18.8')
+    runtime module ('com.github.mygreen:super-csv-annotation:2.2')
+    runtime module ('org.slf4j:slf4j-api:1.7.25')
+//    runtime module ('org.slf4j:slf4j-jdk14:1.7.25')
+//    runtime module ('org.slf4j:slf4j-simple:1.7.25')
+//    runtime module ('org.slf4j:slf4j-api:1.7.25')
+//    runtime module ('org.slf4j:jcl-over-slf4j:1.7.25')
+//    runtime module ('org.slf4j:slf4j-log4j12:1.7.25')
+//    runtime module ('ch.qos.logback:logback-core:1.2.3')
+//    runtime module ('ch.qos.logback:logback-classic:1.2.3')
+}
+
+compileJava {
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath,
+        ]
+        classpath = files()
+    }
+}
+
+jar {
+    manifest {
+        attributes (
+                'Main-Class' : 'ksaito.testJava11Gradle.Application'
+        )
+    }
+    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+//    exclude(['org.slf4j.impl', 'org.apache.log4j'])
+}
