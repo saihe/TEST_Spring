@@ -1,7 +1,8 @@
 module TestJava11Gradle {
-    requires java.xml;
     requires lombok;
+    requires dataloader;
+    requires aws.java.sdk;
     requires slf4j.api;
-    requires logback.core;
     requires logback.classic;
+    requires logback.core;
 }
