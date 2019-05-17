@@ -5,4 +5,5 @@ module TestJava11Gradle {
     requires logback.classic;
     requires dom4j;
     requires java.xml;
+    requires opencsv;
 }
